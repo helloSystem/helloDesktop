@@ -8,6 +8,8 @@ WWW=		https://github.com/helloSystem/Menu
 
 LICENSE=	BSD
 
+RUN_DEPENDS=    gmenudbusmenuproxy-standalone:x11/gmenudbusmenuproxy-standalone
+
 LIB_DEPENDS=	libdbusmenu-qt5.so:devel/libdbusmenu-qt \
 		libxcb-util.so:x11/xcb-util \
 		libxcb-ewmh.so:x11/xcb-util-wm

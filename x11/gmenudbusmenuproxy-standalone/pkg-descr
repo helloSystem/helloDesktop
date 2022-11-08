@@ -1,5 +1,3 @@
+Allows Gtk applications to show their menus in the global menu.
 gdbusmenuproxy-standalone is taken from plasma5-plasme-workspace.
-Made to shrink dependencies for hello-desktop, it allows global menus for gtk-applications.
- 
-WWW: https://github.com/helloSystem/Menu
-
+Made to shrink dependencies for hello-desktop.

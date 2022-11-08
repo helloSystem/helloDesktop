@@ -1,0 +1,3 @@
+/styles/libpstyleplugin.so
+%%QT_PLUGINDIR%%/platformthemes/libpanda-qtplugin.so
+@dir /styles

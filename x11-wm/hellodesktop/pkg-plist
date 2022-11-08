@@ -1,0 +1,17 @@
+===>  Staging for hellodesktop-0.10.0
+===>   hellodesktop-0.10.0 depends on package: hellodesktop-launch>=0.10.0 - found
+===>   hellodesktop-0.10.0 depends on package: hellodesktop-menu>=0.10.0 - found
+===>   hellodesktop-0.10.0 depends on package: x11-fm/hellodesktop-filer>=0.10.0 - found
+===>   hellodesktop-0.10.0 depends on file: /usr/local/share/icons/elementary-xfce/index.theme - found
+===>   hellodesktop-0.10.0 depends on package: hellodesktop-qtplugin>=0.10.0 - not found
+===>  Installing for hellodesktop-qtplugin-0.10
+===>  Checking if hellodesktop-qtplugin is already installed
+===>   Registering installation for hellodesktop-qtplugin-0.10 as automatic
+*** Error code 1
+
+Stop.
+make[1]: stopped in /usr/ports/sysutils/hellodesktop-qtplugin
+*** Error code 1
+
+Stop.
+make: stopped in /usr/home/user/helloDesktop/x11-wm/hellodesktop

@@ -6,12 +6,11 @@ MAINTAINER=	jsm@FreeBSD.org
 COMMENT=	Meta-port for the helloDesktop
 WWW=		https://github.com/helloSystem/hello
 
-RUN_DEPENDS=	filer-qt:x11-fm/hellodesktop-filer \
-	menubar:x11-wm/hellodesktop-menu \
-	${PREFIX}/share/icons/elementary-xfce/index.theme:x11-themes/hellodesktop-icons \
-	hellodesktop-qtplugin>=0.10.0:sysutils/hellodesktop-qtplugin \
-	gmenudbusmenuproxy-standalone:x11/gmenudbusmenuproxy-standalone \
-	launch:sysutils/hello-launch
+RUN_DEPENDS=	hellodesktop-launch>=0.10.0:sysutils/hellodesktop-launch \
+        hellodesktop-menu>=0.10.0:x11-wm/hellodesktop-menu \
+	x11-fm/hellodesktop-filer>=0.10.0:x11-fm/hellodesktop-filer \
+	x11-themes/hellodesktop-icons>=0.10.0:x11-themes/hellodesktop-icons \
+	sysutils/hellodesktop-qtplugin>=0.10.0:sysutils/hellodesktop-qtplugin
 USES=	metaport
 
 .include <bsd.port.mk>

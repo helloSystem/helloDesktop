@@ -1,4 +1,2 @@
 Qt platform plugin and style. Exports windows to KDE-style
 global menus via D-Bus. Part of helloDesktop.
-
-
