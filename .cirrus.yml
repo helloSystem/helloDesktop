@@ -23,7 +23,7 @@ task:
       - mkdir -p ./pkg/
       
     launch_script:
-      - pkg install -y curl wget zip pkgconf cmake qt5-qmake qt5-widgets qt5-buildtools qt5-sql kf5-kwindowsystem
+      - pkg install -y curl wget zip pkgconf cmake qt5-qmake qt5-widgets qt5-buildtools qt5-sql kf5-kwindowsystem databases/qt5-sqldrivers-sqlite3
       - make -C sysutils/hellodesktop-launch package
 
     Menu_script:
