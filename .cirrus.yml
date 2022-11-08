@@ -24,15 +24,15 @@ task:
       - mkdir -p ./pkg/
       
     launch_script:
-      - ( cd sysutils/hellodesktop-launch && make build-depends-list | cut -c 12- | xargs pkg install -y ) 
+      - pkg install -y curl wget zip pkgconf cmake qt5-qmake qt5-widgets qt5-buildtools qt5-sql kf5-kwindowsystem
       - make -C sysutils/hellodesktop-launch package
 
     Menu_script:
-      - ( cd x11-wm/hellodesktop-menu && make build-depends-list | cut -c 12- | xargs pkg install -y )
+      - pkg install -y curl wget zip pkgconf cmake qt5-x11extras qt5-quickcontrols qt5-qmake qt5-widgets qt5-buildtools qt5-concurrent kf5-kdbusaddons kf5-kwindowsystem kf5-baloo libdbusmenu-qt5 pulseaudio pulseaudio-qt libXcomposite
       - make -C x11-wm/hellodesktop-menu package
 
     Filer_script:      
-      - ( cd x11-fm/hellodesktop-filer && make build-depends-list | cut -c 12- | xargs pkg install -y )
+      - pkg install -y git-lite curl wget zip cmake pkgconf libfm qt5-core qt5-x11extras qt5-widgets qt5-qmake qt5-buildtools qt5-linguisttools qt5-multimedia
       - make -C x11-fm/hellodesktop-filer package
 
     package_script:
