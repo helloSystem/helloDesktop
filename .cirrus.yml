@@ -20,7 +20,7 @@ task:
       - rm -rf /usr/ports
       - git clone --depth 1 --filter=blob:none --sparse https://github.com/freebsd/freebsd-ports.git /usr/ports
       - ( cd /usr/ports ; git sparse-checkout set Keywords Mk Templates Tools devel x11 databases x11-toolkits ports-mgmt net graphics multimedia ; cd - )
-      - pkg install -y qt5-qmake # Workaround for: The imported target "Qt5::Core" references the file
+      - pkg install -y qt5-qmake kf5-kwindowsystem # Workaround for packages missing below
       - mkdir -p ./pkg/
       
     launch_script:
