@@ -19,7 +19,7 @@ task:
       # Only download ports infrastructure and partial ports; https://stackoverflow.com/a/52269934/2988
       - rm -rf /usr/ports
       - git clone --depth 1 --filter=blob:none --sparse https://github.com/freebsd/freebsd-ports.git /usr/ports
-      - ( cd /usr/ports ; git sparse-checkout set Keywords Mk Templates Tools devel x11 databases x11-toolkits ports-mgmt net graphics multimedia ; cd - )
+      - ( cd /usr/ports ; git sparse-checkout set Keywords Mk Templates Tools devel x11 databases x11-toolkits ports-mgmt net graphics multimedia sysutils ; cd - )
       - pkg install -y qt5-qmake kf5-kwindowsystem # Workaround for packages missing below
       - mkdir -p ./pkg/
       
