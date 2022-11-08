@@ -17,9 +17,9 @@ task:
       - ASSUME_ALWAYS_YES=yes pkg bootstrap -f
       - pkg install -y git-lite
       # Only download ports infrastructure but no ports; https://stackoverflow.com/a/52269934/2988
-      - rm -rf /usr/ports
-      - git clone --depth 1 --filter=blob:none --sparse https://github.com/freebsd/freebsd-ports.git /usr/ports
-      - ( cd /usr/ports ; git sparse-checkout set Keywords Mk Templates Tools ; cd - )
+      # rm -rf /usr/ports
+      # git clone --depth 1 --filter=blob:none --sparse https://github.com/freebsd/freebsd-ports.git /usr/ports
+      # ( cd /usr/ports ; git sparse-checkout set Keywords Mk Templates Tools ; cd - )
       - pkg install -y qt5-qmake kf5-kwindowsystem # Workaround for packages missing below
       - mkdir -p ./pkg/
       
