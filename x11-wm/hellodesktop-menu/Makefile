@@ -19,7 +19,7 @@ GH_ACCOUNT=     helloSystem
 GH_PROJECT=     Menu
 GH_TAGNAME=	3f9e04a
 
-USE_KDE= 	dbusaddons windowsystem
+USE_KDE= 	dbusaddons windowsystem baloo
 USE_QT=		buildtools core concurrent dbus declarative gui network qmake widgets x11extras
 USE_XORG=	sm ice x11 xcb xcomposite xdamage xext xfixes xrender
 
