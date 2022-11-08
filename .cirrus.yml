@@ -4,7 +4,7 @@ task:
       memory: 16G
       matrix:
         - image: freebsd-13-1-release-amd64
-        - image: freebsd-14-0-current-amd64-v20220701
+        # image: freebsd-14-0-current-amd64-v20220701
 
     env:
       CIRRUS_CLONE_DEPTH: 1
@@ -16,23 +16,26 @@ task:
     prerequisites_script:
       - ASSUME_ALWAYS_YES=yes pkg bootstrap -f
       - pkg install -y git-lite
-      # Only download ports infrastructure but not other ports; https://stackoverflow.com/a/52269934/2988
+      # Only download ports infrastructure and partial ports; https://stackoverflow.com/a/52269934/2988
       - rm -rf /usr/ports
       - git clone --depth 1 --filter=blob:none --sparse https://github.com/freebsd/freebsd-ports.git /usr/ports
       - ( cd /usr/ports ; git sparse-checkout set Keywords Mk Templates Tools devel x11 databases x11-toolkits ports-mgmt net graphics multimedia ; cd - )
-
-    install_dependencies_script:
-      - ( cd sysutils/hellodesktop-launch && make build-depends-list | cut -c 12- | xargs pkg install -y ) 
-      - ( cd x11-wm/hellodesktop-menu && make build-depends-list | cut -c 12- | xargs pkg install -y )
-      - ( cd x11-fm/hellodesktop-filer && make build-depends-list | cut -c 12- | xargs pkg install -y )
- 
-    build_package_script:
       - mkdir -p ./pkg/
+      
+    launch_script:
+      - ( cd sysutils/hellodesktop-launch && make build-depends-list | cut -c 12- | xargs pkg install -y ) 
       - make -C sysutils/hellodesktop-launch package
+
+    Menu_script:
+      - ( cd x11-wm/hellodesktop-menu && make build-depends-list | cut -c 12- | xargs pkg install -y )
       - make -C x11-wm/hellodesktop-menu package
+
+    Filer_script:      
+      - ( cd x11-fm/hellodesktop-filer && make build-depends-list | cut -c 12- | xargs pkg install -y )
       - make -C x11-fm/hellodesktop-filer package
+
+    package_script:
       - find . -name '*.pkg' -exec mv {} ./pkg \;
       
     binary_artifacts:
       path: "pkg/*"
-  
