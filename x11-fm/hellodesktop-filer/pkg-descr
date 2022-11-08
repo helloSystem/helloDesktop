@@ -1,4 +1,2 @@
-Filer is the file manager of helloDesktop. It supports application bundles
-and renders the desktop. It is based on PcManFM-Qt.
-
-WWW: https://github.com/helloSystem/Filer
+Filer is the file manager of helloDesktop. It also renders the desktop,
+supports application bundles, and has a Spatial mode.

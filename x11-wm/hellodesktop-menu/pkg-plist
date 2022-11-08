@@ -1,6 +1,41 @@
-bin/menubar
-include/menubar/pluginsiterface.h
-lib/menubar/plugins/libdatetime.so
-lib/menubar/plugins/libstatusnotifier.so
-lib/menubar/plugins/libvolume.so
-share/menubar/translations/menubar_de.qm
+/System/Menu.app/Menu
+/System/Menu.app/Resources/Menu.png
+/System/Menu.app/Resources/include/menubar/pluginsiterface.h
+/System/Menu.app/Resources/plugins/libdatetime.so
+/System/Menu.app/Resources/plugins/libstatusnotifier.so
+/System/Menu.app/Resources/plugins/libvolume.so
+/System/Menu.app/Resources/plugins/libwindows.so
+/System/Menu.app/Resources/translations/menubar_cs.qm
+/System/Menu.app/Resources/translations/menubar_da.qm
+/System/Menu.app/Resources/translations/menubar_de.qm
+/System/Menu.app/Resources/translations/menubar_el.qm
+/System/Menu.app/Resources/translations/menubar_en.qm
+/System/Menu.app/Resources/translations/menubar_eo.qm
+/System/Menu.app/Resources/translations/menubar_es.qm
+/System/Menu.app/Resources/translations/menubar_fr.qm
+/System/Menu.app/Resources/translations/menubar_he.qm
+/System/Menu.app/Resources/translations/menubar_hu.qm
+/System/Menu.app/Resources/translations/menubar_it.qm
+/System/Menu.app/Resources/translations/menubar_ja.qm
+/System/Menu.app/Resources/translations/menubar_ka.qm
+/System/Menu.app/Resources/translations/menubar_ko.qm
+/System/Menu.app/Resources/translations/menubar_lt.qm
+/System/Menu.app/Resources/translations/menubar_nb_NO.qm
+/System/Menu.app/Resources/translations/menubar_nl.qm
+/System/Menu.app/Resources/translations/menubar_pl.qm
+/System/Menu.app/Resources/translations/menubar_pt.qm
+/System/Menu.app/Resources/translations/menubar_pt_BR.qm
+/System/Menu.app/Resources/translations/menubar_ru.qm
+/System/Menu.app/Resources/translations/menubar_sl.qm
+/System/Menu.app/Resources/translations/menubar_sv.qm
+/System/Menu.app/Resources/translations/menubar_tr.qm
+/System/Menu.app/Resources/translations/menubar_uk.qm
+/System/Menu.app/Resources/translations/menubar_zh_Hans.qm
+/System/Menu.app/Resources/translations/menubar_zh_Hant.qm
+/System/Menu.app/Shutdown
+@dir /System/Menu.app/Resources/include/menubar
+@dir /System/Menu.app/Resources/include
+@dir /System/Menu.app/Resources/plugins
+@dir /System/Menu.app/Resources/translations
+@dir /System/Menu.app/Resources
+@dir /System/Menu.app
