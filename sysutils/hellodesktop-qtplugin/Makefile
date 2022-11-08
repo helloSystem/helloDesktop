@@ -18,7 +18,7 @@ USE_KDE=	ecm windowsystem
 USE_QT=		buildtools core dbus gui qmake svg x11extras widgets
 GH_ACCOUNT=     helloSystem
 GH_PROJECT=     QtPlugin
-GH_TAGNAME=     95f276d
+GH_TAGNAME=     f8b06b0
 
 USE_LDCONFIG=	yes
 
