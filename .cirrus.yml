@@ -27,6 +27,7 @@ task:
       - make -C sysutils/hellodesktop-launch package
 
     gmenudbusmenuproxy-standalone_script:
+      - ( cd x11/gmenudbusmenuproxy-standalone && make build-depends-list | cut -c 12- | xargs pkg install -y ) 
       - make -C x11/gmenudbusmenuproxy-standalone package
 
     Menu_script:
