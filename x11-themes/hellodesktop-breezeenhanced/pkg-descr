@@ -1,0 +1,10 @@
+BreezeEnhanced is a fork of KDE Breeze decoration with the following changes:
+The optional title-bar gradient is smooth and has a configurable intensity.
+The title-bar opacity is configurable.
+A very mild light line is added to the top of title-bar
+and the separator between title-bar and window is removed.
+The spacing between buttons is configurable.
+Opaqueness, opacity override and flatness are added to the exception
+list properties.
+Title-bar font is set indpendent from the KDE font settings
+(for use outside KDE).

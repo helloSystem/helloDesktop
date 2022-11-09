@@ -1,0 +1,5 @@
+/you/have/to/check/what/makeplist/gives/you
+breezeenhancedconfig.desktop
+lib/libbreezeenhancedcommon5.so.0
+lib/libbreezeenhancedcommon5.so.0.1
+%%QT_PLUGINDIR%%/org.kde.kdecoration2/breezeenhanced.so
