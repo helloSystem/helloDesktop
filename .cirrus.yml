@@ -49,6 +49,11 @@ task:
       - make -C sysutils/hellodesktop-qtplugin package
       - ln -sf $(readlink -f ./sysutils/hellodesktop-qtplugin) /usr/ports/sysutils/
 
+    breezeenhanced_script:
+      - ( cd x11-themes/hellodesktop-breezeenhanced && make build-depends-list | cut -c 12- | xargs pkg install -y ) 
+      - make -C x11-themes/hellodesktop-breezeenhanced package
+      - ln -sf $(readlink -f ./x11-themes/hellodesktop-breezeenhanced) /usr/ports/x11-themes/
+      
     helloDesktop_script:
       # ln -sf $(readlink -f ./sysutils/hellodesktop-qtplugin) /usr/ports/sysutils/
       - make -C x11-wm/hellodesktop package

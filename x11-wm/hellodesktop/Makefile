@@ -10,7 +10,8 @@ RUN_DEPENDS=	hellodesktop-launch>=0.10.0:sysutils/hellodesktop-launch \
         hellodesktop-menu>=0.10.0:x11-wm/hellodesktop-menu \
 	x11-fm/hellodesktop-filer>=0.10.0:x11-fm/hellodesktop-filer \
 	x11-themes/hellodesktop-icons>=0.10.0:x11-themes/hellodesktop-icons \
-	sysutils/hellodesktop-qtplugin>=0.10.0:sysutils/hellodesktop-qtplugin
+	sysutils/hellodesktop-qtplugin>=0.10.0:sysutils/hellodesktop-qtplugin \
+        x11-themes/hellodesktop-breezeenhanced>=0.10.0:x11-themes/hellodesktop-breezeenhanced
 USES=	metaport
 
 .include <bsd.port.mk>
