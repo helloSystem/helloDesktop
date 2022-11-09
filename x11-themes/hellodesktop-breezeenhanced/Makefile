@@ -1,4 +1,4 @@
-PORTNAME=	breeze
+PORTNAME=	breezeenhanced
 PORTVERSION=    0.10
 CATEGORIES=	x11-themes
 
@@ -16,7 +16,7 @@ USES=		cmake compiler:c++11-lib gettext kde:5 pkgconfig qt:5 tar:xz \
 USE_GITHUB=     yes
 GH_ACCOUNT=     helloSystem
 GH_PROJECT=     BreezeEnhanced
-GH_TAGNAME=     9b37c34
+GH_TAGNAME=     bcb69f5
 
 USE_KDE=	codecs config configwidgets coreaddons \
 		decoration ecm frameworkintegration guiaddons i18n iconthemes \
