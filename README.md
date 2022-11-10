@@ -1,4 +1,4 @@
-# helloDesktop
+# helloDesktop [![Build Status](https://api.cirrus-ci.com/github/helloSystem/helloDesktop.svg)](https://cirrus-ci.com/github/helloSystem/helloDesktop)
 
 ```
 sudo su
