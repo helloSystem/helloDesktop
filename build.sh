@@ -1,5 +1,7 @@
 #!/bin/sh
 
+set -e
+
 ABI="FreeBSD:13:amd64" # TODO: Determine dynamically
 
 mkdir -p "${ABI}"
@@ -31,6 +33,11 @@ ln -sf $(readlink -f ./x11-themes/hellodesktop-icons) /usr/ports/sysutils/
 ( cd x11-themes/hellodesktop-breezeenhanced && make build-depends-list | cut -c 12- | xargs pkg install -y ) 
 make -C x11-themes/hellodesktop-breezeenhanced package
 ln -sf $(readlink -f ./x11-themes/hellodesktop-breezeenhanced) /usr/ports/x11-themes/
+
+# Fonts
+( cd x11-fonts/hellodesktop-urwfonts-ttf && make build-depends-list | cut -c 12- | xargs pkg install -y )
+make -C x11-fonts/hellodesktop-urwfonts-ttf package
+ln -sf $(readlink -f ./x11-fonts/hellodesktop-urwfonts-ttf) /usr/ports/x11-fonts/
 
 # QtPlugin
 make -C sysutils/hellodesktop-qtplugin package
