@@ -1,3 +1,3 @@
-/styles/libpstyleplugin.so
 %%QT_PLUGINDIR%%/platformthemes/libpanda-qtplugin.so
-@dir /styles
+%%QT_PLUGINDIR%%/styles/libpstyleplugin.so
+share/panda/sounds/ping.wav
