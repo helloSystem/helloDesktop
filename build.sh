@@ -8,12 +8,6 @@ mkdir -p "${ABI}"
 pkg install -y curl wget zip pkgconf cmake qt5-qmake qt5-widgets qt5-buildtools qt5-sql kf5-kwindowsystem databases/qt5-sqldrivers-sqlite3
 make -C sysutils/hellodesktop-launch package
 
-# helloDesktop repository
-find . -name '*.pkg' -exec mv {} "${ABI}/" \;
-pkg repo "${ABI}/"
-
-exit 0
-
 # gmenudbusmenuproxy-standalone
 ( cd x11/gmenudbusmenuproxy-standalone && make build-depends-list | cut -c 12- | xargs pkg install -y ) 
 make -C x11/gmenudbusmenuproxy-standalone package
@@ -33,14 +27,22 @@ ln -sf $(readlink -f ./x11-fm/hellodesktop-filer) /usr/ports/x11-fm/
 make -C x11-themes/hellodesktop-icons package
 ln -sf $(readlink -f ./x11-themes/hellodesktop-icons) /usr/ports/sysutils/
 
-# QtPlugin
-make -C sysutils/hellodesktop-qtplugin package
-ln -sf $(readlink -f ./sysutils/hellodesktop-qtplugin) /usr/ports/sysutils/
-
 # BreezeEnhanced
 ( cd x11-themes/hellodesktop-breezeenhanced && make build-depends-list | cut -c 12- | xargs pkg install -y ) 
 make -C x11-themes/hellodesktop-breezeenhanced package
 ln -sf $(readlink -f ./x11-themes/hellodesktop-breezeenhanced) /usr/ports/x11-themes/
+
+# helloDesktop repository
+find . -name '*.pkg' -exec mv {} "${ABI}/" \;
+pkg repo "${ABI}/"
+
+
+exit 0 #############################
+
+
+# QtPlugin
+make -C sysutils/hellodesktop-qtplugin package
+ln -sf $(readlink -f ./sysutils/hellodesktop-qtplugin) /usr/ports/sysutils/
 
 # helloDesktop meta port
 make -C x11-wm/hellodesktop package
