@@ -46,6 +46,7 @@ task:
       - ln -sf $(readlink -f ./x11-themes/hellodesktop-icons) /usr/ports/sysutils/
 
     qtplugin_script:
+      - ( cd sysutils/hellodesktop-qtplugin && make build-depends-list | cut -c 12- | xargs pkg install -y ) 
       - make -C sysutils/hellodesktop-qtplugin package
       - ln -sf $(readlink -f ./sysutils/hellodesktop-qtplugin) /usr/ports/sysutils/
 
