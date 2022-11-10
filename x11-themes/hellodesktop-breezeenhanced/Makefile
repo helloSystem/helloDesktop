@@ -23,7 +23,7 @@ USE_KDE=	codecs config configwidgets coreaddons \
 		kcmutils plasma-framework service wayland widgetsaddons \
 		windowsystem
 USE_QT=		core dbus declarative gui network widgets x11extras xml \
-		buildtools:build qmake:build
+		buildtools:build
 USE_XORG=	x11 xcb
 
 .include <bsd.port.mk>
