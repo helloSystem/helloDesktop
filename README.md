@@ -12,5 +12,5 @@ helloDesktop: {
 EOF
 exit
 
-sudo pkg install hellodesktop-launch
+sudo pkg install hellodesktop
 ```
