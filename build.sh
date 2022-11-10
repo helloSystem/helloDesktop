@@ -32,14 +32,6 @@ ln -sf $(readlink -f ./x11-themes/hellodesktop-icons) /usr/ports/sysutils/
 make -C x11-themes/hellodesktop-breezeenhanced package
 ln -sf $(readlink -f ./x11-themes/hellodesktop-breezeenhanced) /usr/ports/x11-themes/
 
-# helloDesktop repository
-find . -name '*.pkg' -exec mv {} "${ABI}/" \;
-pkg repo "${ABI}/"
-
-
-exit 0 #############################
-
-
 # QtPlugin
 make -C sysutils/hellodesktop-qtplugin package
 ln -sf $(readlink -f ./sysutils/hellodesktop-qtplugin) /usr/ports/sysutils/
@@ -47,6 +39,6 @@ ln -sf $(readlink -f ./sysutils/hellodesktop-qtplugin) /usr/ports/sysutils/
 # helloDesktop meta port
 make -C x11-wm/hellodesktop package
 
-# helloDesktop repository
+# FreeBSD repository
 find . -name '*.pkg' -exec mv {} "${ABI}/" \;
 pkg repo "${ABI}/"
