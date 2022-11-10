@@ -2,7 +2,7 @@
 
 set -e
 
-ABI="FreeBSD:13:amd64" # TODO: Determine dynamically
+ABI=$(pkg config abi) # E.g., FreeBSD:13:amd64
 
 mkdir -p "${ABI}"
 
