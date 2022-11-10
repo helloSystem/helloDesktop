@@ -10,7 +10,7 @@ task:
     env:
       CIRRUS_CLONE_DEPTH: 1
       GITHUB_TOKEN: ENCRYPTED[53a7e28d3a96e84dcfc38da4df73c32521b000794598caa1de582dda1afee5fab653d43f80d86f7fd1713f81581eee38]
-      BATCH: 1 
+      BATCH: 1
 
     timeout_in: 90m
 
@@ -26,4 +26,4 @@ task:
       - ./build.sh
       
     binary_artifacts:
-      path: "pkg/*"
+      path: "FreeBSD:**/*"

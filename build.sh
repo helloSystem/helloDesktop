@@ -1,6 +1,8 @@
 #!/bin/sh
 
-mkdir -p ./pkg/
+ABI="FreeBSD:13:amd64" # TODO: Determine dynamically
+
+mkdir -p "${ABI}"
 
 # launch
 pkg install -y curl wget zip pkgconf cmake qt5-qmake qt5-widgets qt5-buildtools qt5-sql kf5-kwindowsystem databases/qt5-sqldrivers-sqlite3
@@ -44,5 +46,5 @@ ln -sf $(readlink -f ./x11-themes/hellodesktop-breezeenhanced) /usr/ports/x11-th
 make -C x11-wm/hellodesktop package
 
 # helloDesktop repository
-find . -name '*.pkg' -exec mv {} ./pkg \;
-pkg repo pkg/
+find . -name '*.pkg' -exec mv {} "${ABI}/" \;
+pkg repo "${ABI}/"
