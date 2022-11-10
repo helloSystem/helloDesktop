@@ -9,8 +9,8 @@ pkg install -y curl wget zip pkgconf cmake qt5-qmake qt5-widgets qt5-buildtools 
 make -C sysutils/hellodesktop-launch package
 
 # helloDesktop repository
-find . -name '*.pkg' -exec mv {} ./pkg \;
-pkg repo pkg/
+find . -name '*.pkg' -exec mv {} "${ABI}/" \;
+pkg repo "${ABI}/"
 
 exit 0
 
