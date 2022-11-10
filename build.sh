@@ -49,3 +49,9 @@ make -C x11-wm/hellodesktop package
 # FreeBSD repository
 find . -name '*.pkg' -exec mv {} "${ABI}/" \;
 pkg repo "${ABI}/"
+# index.html for the FreeBSD repository
+cd "${ABI}/"
+echo "<html>" > index.html
+find . -depth 1 -exec echo "<a>{}</a>" \; | sed -e 's|\./||g' >> index.html
+echo "</html>" >> index.html
+cd -
