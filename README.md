@@ -14,3 +14,5 @@ exit
 
 sudo pkg install hellodesktop
 ```
+
+__NOTE:__ This is work in progress. Configuration and startup script for the user session are currently missing.
