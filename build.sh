@@ -8,7 +8,7 @@ mkdir -p "${ABI}"
 
 # launch
 ( cd sysutils/hellodesktop-launch && make build-depends-list | cut -c 12- | xargs pkg install -y ) 
-pkg install -y qt5-qmake # Workaround for: The imported target "Qt5::Core" references the file
+pkg install -y kf5-kwindowsystem qt5-qmake # Workaround for packages that are missed by the next line
 make -C sysutils/hellodesktop-launch package
 ln -sf $(readlink -f ./sysutils/hellodesktop-launch) /usr/ports/sysutils/
 
