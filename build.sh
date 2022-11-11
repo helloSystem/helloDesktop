@@ -7,7 +7,7 @@ ABI=$(pkg config abi) # E.g., FreeBSD:13:amd64
 mkdir -p "${ABI}"
 
 # launch
-pkg install -y curl wget zip pkgconf cmake qt5-qmake qt5-widgets qt5-buildtools qt5-sql kf5-kwindowsystem databases/qt5-sqldrivers-sqlite3
+( cd sysutils/hellodesktop-launch && make build-depends-list | cut -c 12- | xargs pkg install -y ) 
 make -C sysutils/hellodesktop-launch package
 ln -sf $(readlink -f ./sysutils/hellodesktop-launch) /usr/ports/sysutils/
 
@@ -17,12 +17,12 @@ make -C x11/gmenudbusmenuproxy-standalone package
 ln -sf $(readlink -f ./x11/gmenudbusmenuproxy-standalone) /usr/ports/x11/
 
 # Menu
-pkg install -y curl wget zip pkgconf cmake qt5-x11extras qt5-quickcontrols qt5-qmake qt5-widgets qt5-buildtools qt5-concurrent kf5-kdbusaddons kf5-kwindowsystem kf5-baloo libdbusmenu-qt5 pulseaudio pulseaudio-qt libXcomposite
+( cd x11-wm/hellodesktop-menu && make build-depends-list | cut -c 12- | xargs pkg install -y ) 
 make -C x11-wm/hellodesktop-menu package
 ln -sf $(readlink -f ./x11-wm/hellodesktop-menu) /usr/ports/x11-wm/
 
 # Filer
-pkg install -y git-lite curl wget zip cmake pkgconf libfm qt5-core qt5-x11extras qt5-widgets qt5-qmake qt5-buildtools qt5-linguisttools qt5-multimedia
+( cd x11-fm/hellodesktop-filer && make build-depends-list | cut -c 12- | xargs pkg install -y ) 
 make -C x11-fm/hellodesktop-filer package
 ln -sf $(readlink -f ./x11-fm/hellodesktop-filer) /usr/ports/x11-fm/
 
