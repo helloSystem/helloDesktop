@@ -22,8 +22,8 @@ USE_KDE=	codecs config configwidgets coreaddons \
 		decoration ecm frameworkintegration guiaddons i18n iconthemes \
 		kcmutils plasma-framework service wayland widgetsaddons \
 		windowsystem
-USE_QT=		core dbus declarative gui network widgets x11extras xml \
-		buildtools:build
+USE_QT=		core dbus declarative gui network widgets x11extras xml
+
 USE_XORG=	x11 xcb
 
 .include <bsd.port.mk>
