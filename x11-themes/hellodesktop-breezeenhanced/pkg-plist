@@ -2,3 +2,5 @@ lib/libbreezeenhancedcommon5.so.0
 lib/libbreezeenhancedcommon5.so.0.1
 %%QT_PLUGINDIR%%/org.kde.kdecoration2/breezeenhanced.so
 share/applications/breezeenhancedconfig.desktop
+etc/xdg/kwinrc
+etc/xdg/breezerc
