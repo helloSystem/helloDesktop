@@ -9,6 +9,7 @@ mkdir -p "${ABI}"
 # launch
 pkg install -y curl wget zip pkgconf cmake qt5-qmake qt5-widgets qt5-buildtools qt5-sql kf5-kwindowsystem databases/qt5-sqldrivers-sqlite3
 make -C sysutils/hellodesktop-launch package
+ln -sf $(readlink -f ./sysutils/hellodesktop-launch) /usr/ports/sysutils/
 
 # gmenudbusmenuproxy-standalone
 ( cd x11/gmenudbusmenuproxy-standalone && make build-depends-list | cut -c 12- | xargs pkg install -y ) 
@@ -27,7 +28,7 @@ ln -sf $(readlink -f ./x11-fm/hellodesktop-filer) /usr/ports/x11-fm/
 
 # Icons
 make -C x11-themes/hellodesktop-icons package
-ln -sf $(readlink -f ./x11-themes/hellodesktop-icons) /usr/ports/sysutils/
+ln -sf $(readlink -f ./x11-themes/hellodesktop-icons) /usr/ports/x11-themes
 
 # BreezeEnhanced
 ( cd x11-themes/hellodesktop-breezeenhanced && make build-depends-list | cut -c 12- | xargs pkg install -y ) 
@@ -40,6 +41,7 @@ make -C x11-fonts/hellodesktop-urwfonts-ttf package
 ln -sf $(readlink -f ./x11-fonts/hellodesktop-urwfonts-ttf) /usr/ports/x11-fonts/
 
 # QtPlugin
+( cd sysutils/hellodesktop-qtplugin && make build-depends-list | cut -c 12- | xargs pkg install -y )
 make -C sysutils/hellodesktop-qtplugin package
 ln -sf $(readlink -f ./sysutils/hellodesktop-qtplugin) /usr/ports/sysutils/
 
