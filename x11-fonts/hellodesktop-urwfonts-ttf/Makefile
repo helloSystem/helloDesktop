@@ -1,5 +1,5 @@
 PORTNAME=	hellodesktop-urwfonts-ttf
-PORTVERSION=	20200910
+PORTVERSION=	g20200910
 CATEGORIES=	x11-fonts
 
 MAINTAINER=	jsm@FreeBSD.org
