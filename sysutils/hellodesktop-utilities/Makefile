@@ -8,6 +8,9 @@ WWW=		https://github.com/helloSystem/Utilities
 
 LICENSE=        BSD
 
+# Python dependencies derived with
+# grep -r py ISO/settings/packages.* | cut -d ":" -f 2-99 | grep -v "^#" | sort | uniq
+
 RUN_DEPENDS=    sysutils/hellodesktop-launch>=0:sysutils/hellodesktop-launch \
 		databases/py-sqlite3>=0:databases/py-sqlite3@${PY_FLAVOR} \
 		devel/py-dateutil>=0:devel/py-dateutil@${PY_FLAVOR} \

@@ -46,6 +46,11 @@ ln -sf $(readlink -f ./x11-fonts/hellodesktop-urwfonts-ttf) /usr/ports/x11-fonts
 make -C sysutils/hellodesktop-qtplugin package
 ln -sf $(readlink -f ./sysutils/hellodesktop-qtplugin) /usr/ports/sysutils/
 
+# QtPlugin
+( cd sysutils/hellodesktop-utilities && make build-depends-list | cut -c 12- | xargs pkg install -y )
+make -C sysutils/hellodesktop-utilities package
+ln -sf $(readlink -f ./sysutils/hellodesktop-utilities) /usr/ports/sysutils/
+
 # helloDesktop meta port
 make -C x11-wm/hellodesktop package
 
