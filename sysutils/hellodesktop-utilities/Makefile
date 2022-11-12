@@ -44,5 +44,9 @@ do-install:
 	(cd ${STAGEDIR}/Applications && mv System ..)
 	(cd ${STAGEDIR}/Applications && mv Root/* ./Utilities/ && rm -r Root)
 	(cd ${STAGEDIR} && find . -type f -name '.git*' -delete)
+	(cd ${STAGEDIR} && find . -type f -or -type l > ${STAGEDIR}/../../pkg-plist)
+	sed -i '' -e 's|^\./|/|g' ${STAGEDIR}/../../pkg-plist
+	(cd ${STAGEDIR} && find . -type d >> ${STAGEDIR}/../../pkg-plist)
+	sed -i '' -e 's|^\./|@dir /|g' ${STAGEDIR}/../../pkg-plist
 
 .include <bsd.port.mk>
