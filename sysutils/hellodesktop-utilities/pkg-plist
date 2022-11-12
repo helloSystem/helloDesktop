@@ -1,0 +1,641 @@
+/Applications/3D Printing/FreeCAD.app/FreeCAD
+/Applications/3D Printing/FreeCAD.app/Resources/FreeCAD.png
+/Applications/3D Printing/FreeCAD.app/Resources/askpass.py
+/Applications/3D Printing/FreeCAD.app/Resources/executable
+/Applications/3D Printing/FreeCAD.app/Resources/packages
+/Applications/3D Printing/PrusaSlicer.app/PrusaSlicer
+/Applications/3D Printing/PrusaSlicer.app/Resources/PrusaSlicer.png
+/Applications/3D Printing/PrusaSlicer.app/Resources/askpass.py
+/Applications/3D Printing/PrusaSlicer.app/Resources/executable
+/Applications/3D Printing/PrusaSlicer.app/Resources/packages
+/Applications/3D Printing/Ultimaker Cura.app/Resources/Ultimaker Cura.png
+/Applications/3D Printing/Ultimaker Cura.app/Resources/askpass.py
+/Applications/3D Printing/Ultimaker Cura.app/Resources/executable
+/Applications/3D Printing/Ultimaker Cura.app/Resources/packages
+/Applications/3D Printing/Ultimaker Cura.app/Ultimaker Cura
+/Applications/Audio/Audacious.app/Audacious
+/Applications/Audio/Audacious.app/Resources/Audacious.png
+/Applications/Audio/Audacious.app/Resources/Audacious.svg
+/Applications/Audio/Audacious.app/Resources/Info-gnustep.plist
+/Applications/Audio/Audacious.app/Resources/can-open
+/Applications/Audio/Audacious.app/Resources/executable
+/Applications/Audio/Audacious.app/Resources/packages
+/Applications/Audio/Audacity.app/Audacity
+/Applications/Audio/Audacity.app/Resources/Audacity.png
+/Applications/Audio/Audacity.app/Resources/askpass.py
+/Applications/Audio/Audacity.app/Resources/executable
+/Applications/Audio/Audacity.app/Resources/packages
+/Applications/Audio/LMMS.app/LMMS
+/Applications/Audio/LMMS.app/Resources/LMMS.png
+/Applications/Audio/LMMS.app/Resources/askpass.py
+/Applications/Audio/LMMS.app/Resources/executable
+/Applications/Audio/LMMS.app/Resources/packages
+/Applications/Audio/MuseScore.app/MuseScore
+/Applications/Audio/MuseScore.app/Resources/MuseScore.png
+/Applications/Audio/MuseScore.app/Resources/executable
+/Applications/Audio/MuseScore.app/Resources/packages
+/Applications/Developer/GammaRay.app/GammaRay
+/Applications/Developer/GammaRay.app/Resources/GammaRay.png
+/Applications/Developer/GammaRay.app/Resources/GammaRay.svg
+/Applications/Developer/GammaRay.app/Resources/Info-gnustep.plist
+/Applications/Developer/GammaRay.app/Resources/executable
+/Applications/Developer/GammaRay.app/Resources/packages
+/Applications/Developer/LiteIDE.app/LiteIDE
+/Applications/Developer/LiteIDE.app/Resources/LiteIDE.png
+/Applications/Developer/LiteIDE.app/Resources/askpass.py
+/Applications/Developer/LiteIDE.app/Resources/executable
+/Applications/Developer/LiteIDE.app/Resources/packages
+/Applications/Developer/PyCharm CE.app/PyCharm CE
+/Applications/Developer/PyCharm CE.app/Resources/PyCharm CE.png
+/Applications/Developer/PyCharm CE.app/Resources/askpass.py
+/Applications/Developer/PyCharm CE.app/Resources/executable
+/Applications/Developer/PyCharm CE.app/Resources/packages
+/Applications/Developer/Qt Creator.app/Qt Creator
+/Applications/Developer/Qt Creator.app/Resources/Qt Creator.png
+/Applications/Developer/Qt Creator.app/Resources/askpass.py
+/Applications/Developer/Qt Creator.app/Resources/executable
+/Applications/Developer/Qt Creator.app/Resources/packages
+/Applications/Developer/Zeal.app/Resources/Zeal.png
+/Applications/Developer/Zeal.app/Resources/askpass.py
+/Applications/Developer/Zeal.app/Resources/executable
+/Applications/Developer/Zeal.app/Resources/packages
+/Applications/Developer/Zeal.app/Zeal
+/Applications/Graphics/Blender.app/Blender
+/Applications/Graphics/Blender.app/Resources/Blender.png
+/Applications/Graphics/Blender.app/Resources/askpass.py
+/Applications/Graphics/Blender.app/Resources/executable
+/Applications/Graphics/Blender.app/Resources/packages
+/Applications/Graphics/GIMP.app/GIMP
+/Applications/Graphics/GIMP.app/Resources/GIMP.png
+/Applications/Graphics/GIMP.app/Resources/askpass.py
+/Applications/Graphics/GIMP.app/Resources/executable
+/Applications/Graphics/GIMP.app/Resources/packages
+/Applications/Graphics/Inkscape.app/Inkscape
+/Applications/Graphics/Inkscape.app/Resources/Inkscape.png
+/Applications/Graphics/Inkscape.app/Resources/askpass.py
+/Applications/Graphics/Inkscape.app/Resources/executable
+/Applications/Graphics/Inkscape.app/Resources/packages
+/Applications/Graphics/Krita.app/Krita
+/Applications/Graphics/Krita.app/Resources/Krita.png
+/Applications/Graphics/Krita.app/Resources/askpass.py
+/Applications/Graphics/Krita.app/Resources/executable
+/Applications/Graphics/Krita.app/Resources/packages
+/Applications/Graphics/Scribus.app/Resources/Scribus.png
+/Applications/Graphics/Scribus.app/Resources/askpass.py
+/Applications/Graphics/Scribus.app/Resources/executable
+/Applications/Graphics/Scribus.app/Resources/packages
+/Applications/Graphics/Scribus.app/Scribus
+/Applications/Graphics/Skanlite.app/Resources/Skanlite.png
+/Applications/Graphics/Skanlite.app/Resources/askpass.py
+/Applications/Graphics/Skanlite.app/Resources/executable
+/Applications/Graphics/Skanlite.app/Resources/packages
+/Applications/Graphics/Skanlite.app/Skanlite
+/Applications/Internet/Chromium.app/Chromium
+/Applications/Internet/Chromium.app/Resources/Chromium.png
+/Applications/Internet/Chromium.app/Resources/executable
+/Applications/Internet/Chromium.app/Resources/packages
+/Applications/Internet/Falkon.app/Falkon
+/Applications/Internet/Falkon.app/Resources/Falkon.png
+/Applications/Internet/Falkon.app/Resources/askpass.py
+/Applications/Internet/Falkon.app/Resources/executable
+/Applications/Internet/Falkon.app/Resources/packages
+/Applications/Internet/Firefox.app/Firefox
+/Applications/Internet/Firefox.app/Resources/Firefox.png
+/Applications/Internet/Firefox.app/Resources/executable
+/Applications/Internet/Firefox.app/Resources/packages
+/Applications/Internet/Thunderbird.app/Resources/Thunderbird.png
+/Applications/Internet/Thunderbird.app/Resources/executable
+/Applications/Internet/Thunderbird.app/Resources/packages
+/Applications/Internet/Thunderbird.app/Thunderbird
+/Applications/Internet/Trojitá.app/Resources/Trojitá.png
+/Applications/Internet/Trojitá.app/Resources/executable
+/Applications/Internet/Trojitá.app/Resources/packages
+/Applications/Internet/Trojitá.app/Trojitá
+/Applications/Office/LibreOffice.app/LibreOffice
+/Applications/Office/LibreOffice.app/Resources/LibreOffice.png
+/Applications/Office/LibreOffice.app/Resources/askpass.py
+/Applications/Office/LibreOffice.app/Resources/executable
+/Applications/Office/LibreOffice.app/Resources/packages
+/Applications/Preferences/Boot Environments.app/Boot Environments
+/Applications/Preferences/Boot Environments.app/Resources/Boot Environments.png
+/Applications/Preferences/Boot Environments.app/Resources/askpass.py
+/Applications/Preferences/Boot Environments.app/Resources/boot-environments.py
+/Applications/Preferences/Desktop.app/Desktop
+/Applications/Preferences/Fonts.app/Fonts
+/Applications/Preferences/Fonts.app/Resources/Fonts.png
+/Applications/Preferences/Keyboard.app/Keyboard
+/Applications/Preferences/Keyboard.app/Resources/International.png
+/Applications/Preferences/Keyboard.app/Resources/Keyboard.png
+/Applications/Preferences/Keyboard.app/Resources/askpass.py
+/Applications/Preferences/Keyboard.app/Resources/save.py
+/Applications/Preferences/Mouse.app/Mouse
+/Applications/Preferences/Mouse.app/Resources/LICENSE
+/Applications/Preferences/Mouse.app/Resources/Mouse.png
+/Applications/Preferences/Sharing.app/Resources/Sharing.png
+/Applications/Preferences/Sharing.app/Resources/askpass.py
+/Applications/Preferences/Sharing.app/Resources/sharing.py
+/Applications/Preferences/Sharing.app/Sharing
+/Applications/Preferences/Users.app/Resources/Users.png
+/Applications/Preferences/Users.app/Resources/adduser.py
+/Applications/Preferences/Users.app/Resources/adduser.sh
+/Applications/Preferences/Users.app/Resources/adduser.ui
+/Applications/Preferences/Users.app/Resources/askpass.py
+/Applications/Preferences/Users.app/Resources/tstranslator.py
+/Applications/Preferences/Users.app/Users
+/Applications/Preferences/Wireless Networks.app/Resources/Wireless Networks.png
+/Applications/Preferences/Wireless Networks.app/Resources/askpass.py
+/Applications/Preferences/Wireless Networks.app/Resources/dialog.py
+/Applications/Preferences/Wireless Networks.app/Resources/wireless-networks
+/Applications/Preferences/Wireless Networks.app/Wireless Networks
+/Applications/Under Construction/Battery.app/Battery
+/Applications/Under Construction/Battery.app/Resources/Battery.png
+/Applications/Under Construction/Burn Optical Disc.app/Burn Optical Disc
+/Applications/Under Construction/Burn Optical Disc.app/Resources/Burn Optical Disc.png
+/Applications/Under Construction/Burn Optical Disc.app/Resources/burn_optical_disc.py
+/Applications/Under Construction/Burn Optical Disc.app/Resources/mock_growisofs
+/Applications/Under Construction/Burn Optical Disc.app/Resources/tstranslator.py
+/Applications/Under Construction/Disk First Aid.app/Disk First Aid
+/Applications/Under Construction/Disk First Aid.app/Resources/Disk First Aid.png
+/Applications/Under Construction/Disk First Aid.app/Resources/LICENSE
+/Applications/Under Construction/Disk First Aid.app/Resources/askpass.py
+/Applications/Under Construction/Disk First Aid.app/Resources/background.png
+/Applications/Under Construction/Disk First Aid.app/Resources/check.png
+/Applications/Under Construction/Disk First Aid.app/Resources/cross.png
+/Applications/Under Construction/Disk First Aid.app/Resources/disk-first-aid.py
+/Applications/Under Construction/Disk First Aid.app/Resources/disks.py
+/Applications/Under Construction/Disk Utility.app/Disk Utility
+/Applications/Under Construction/Disk Utility.app/Resources/Disk Utility.png
+/Applications/Under Construction/Disk Utility.app/Resources/askpass.py
+/Applications/Under Construction/Disk Utility.app/Resources/disks.py
+/Applications/Under Construction/Disk Utility.app/Resources/form.ui
+/Applications/Under Construction/Disk Utility.app/Resources/main.py
+/Applications/Under Construction/Disk Utility.app/Resources/main.pyproject
+/Applications/Under Construction/Disk Utility.app/Resources/main.qml
+/Applications/Under Construction/Download Applications.app/Download Applications
+/Applications/Under Construction/Download Applications.app/Resources/COPYRIGHT
+/Applications/Under Construction/Download Applications.app/Resources/Download Applications.png
+/Applications/Under Construction/Download Applications.app/Resources/background.png
+/Applications/Under Construction/Download Applications.app/Resources/check.png
+/Applications/Under Construction/Download Applications.app/Resources/cross.png
+/Applications/Under Construction/Download Applications.app/Resources/download-applications.py
+/Applications/Under Construction/Download Applications.app/Resources/tstranslator.py
+/Applications/Under Construction/Energy Saving.app/Energy Saving
+/Applications/Under Construction/Energy Saving.app/Resources/Energy Saving.png
+/Applications/Under Construction/Energy Saving.app/Resources/askpass.py
+/Applications/Under Construction/Energy Saving.app/Resources/energy-saving.py
+/Applications/Under Construction/Energy Saving.app/Resources/set-10-monitor.sh
+/Applications/Under Construction/Install Debian Runtime.app/Install Debian Runtime
+/Applications/Under Construction/Install Debian Runtime.app/Resources/COPYRIGHT
+/Applications/Under Construction/Install Debian Runtime.app/Resources/Install Debian Runtime.png
+/Applications/Under Construction/Install Debian Runtime.app/Resources/background.png
+/Applications/Under Construction/Install Debian Runtime.app/Resources/check.png
+/Applications/Under Construction/Install Debian Runtime.app/Resources/cross.png
+/Applications/Under Construction/Install Debian Runtime.app/Resources/debian
+/Applications/Under Construction/Install Debian Runtime.app/Resources/download-debian.py
+/Applications/Under Construction/Install Debian Runtime.app/Resources/tstranslator.py
+/Applications/Under Construction/Network.app/Network
+/Applications/Under Construction/Network.app/Resources/Network.png
+/Applications/Under Construction/Screencast.app/Resources/Screencast.png
+/Applications/Under Construction/Screencast.app/Screencast
+/Applications/Under Construction/Simple Browser.app/GetCookies.py
+/Applications/Under Construction/Simple Browser.app/README.md
+/Applications/Under Construction/Simple Browser.app/Resources/Simple Browser.png
+/Applications/Under Construction/Simple Browser.app/Resources/images/arrow-000.png
+/Applications/Under Construction/Simple Browser.app/Resources/images/arrow-180.png
+/Applications/Under Construction/Simple Browser.app/Resources/images/arrow-circle-315.png
+/Applications/Under Construction/Simple Browser.app/Resources/images/cross-circle.png
+/Applications/Under Construction/Simple Browser.app/Resources/images/cross.png
+/Applications/Under Construction/Simple Browser.app/Resources/images/disk--arrow.png
+/Applications/Under Construction/Simple Browser.app/Resources/images/disk--pencil.png
+/Applications/Under Construction/Simple Browser.app/Resources/images/home.png
+/Applications/Under Construction/Simple Browser.app/Resources/images/lifebuoy.png
+/Applications/Under Construction/Simple Browser.app/Resources/images/lock-nossl.png
+/Applications/Under Construction/Simple Browser.app/Resources/images/lock-ssl.png
+/Applications/Under Construction/Simple Browser.app/Resources/images/ma-icon-128.png
+/Applications/Under Construction/Simple Browser.app/Resources/images/ma-icon-256.png
+/Applications/Under Construction/Simple Browser.app/Resources/images/ma-icon-64.png
+/Applications/Under Construction/Simple Browser.app/Resources/images/printer.png
+/Applications/Under Construction/Simple Browser.app/Resources/images/question.png
+/Applications/Under Construction/Simple Browser.app/Resources/images/ui-tab--plus.png
+/Applications/Under Construction/Simple Browser.app/Simple Browser
+/Applications/Under Construction/Simple Browser.app/requirements.txt
+/Applications/Under Construction/Simple Browser.app/screenshot-browser-tabbed.jpg
+/Applications/Under Construction/Start Disk.app/Resources/Start Disk.png
+/Applications/Under Construction/Start Disk.app/Resources/askpass.py
+/Applications/Under Construction/Start Disk.app/Start Disk
+/Applications/Under Construction/Update.app/Resources/Update.png
+/Applications/Under Construction/Update.app/Resources/i18n/cs.ts
+/Applications/Under Construction/Update.app/Resources/i18n/da.ts
+/Applications/Under Construction/Update.app/Resources/i18n/de.ts
+/Applications/Under Construction/Update.app/Resources/i18n/el.ts
+/Applications/Under Construction/Update.app/Resources/i18n/en.ts
+/Applications/Under Construction/Update.app/Resources/i18n/eo.ts
+/Applications/Under Construction/Update.app/Resources/i18n/es.ts
+/Applications/Under Construction/Update.app/Resources/i18n/fr.ts
+/Applications/Under Construction/Update.app/Resources/i18n/he.ts
+/Applications/Under Construction/Update.app/Resources/i18n/hu.ts
+/Applications/Under Construction/Update.app/Resources/i18n/it.ts
+/Applications/Under Construction/Update.app/Resources/i18n/ja.ts
+/Applications/Under Construction/Update.app/Resources/i18n/ka.ts
+/Applications/Under Construction/Update.app/Resources/i18n/ko.ts
+/Applications/Under Construction/Update.app/Resources/i18n/lt.ts
+/Applications/Under Construction/Update.app/Resources/i18n/nb_NO.ts
+/Applications/Under Construction/Update.app/Resources/i18n/nl.ts
+/Applications/Under Construction/Update.app/Resources/i18n/pl.ts
+/Applications/Under Construction/Update.app/Resources/i18n/pt.ts
+/Applications/Under Construction/Update.app/Resources/i18n/pt_BR.ts
+/Applications/Under Construction/Update.app/Resources/i18n/ru.ts
+/Applications/Under Construction/Update.app/Resources/i18n/sl.ts
+/Applications/Under Construction/Update.app/Resources/i18n/sv.ts
+/Applications/Under Construction/Update.app/Resources/i18n/tr.ts
+/Applications/Under Construction/Update.app/Resources/i18n/uk.ts
+/Applications/Under Construction/Update.app/Resources/i18n/zh_Hans.ts
+/Applications/Under Construction/Update.app/Resources/i18n/zh_Hant.ts
+/Applications/Under Construction/Update.app/Resources/tstranslator.py
+/Applications/Under Construction/Update.app/Resources/update.py
+/Applications/Under Construction/Update.app/Update
+/Applications/Utilities/Android File Transfer (MTP).app/Android File Transfer (MTP)
+/Applications/Utilities/Android File Transfer (MTP).app/Resources/Android File Transfer (MTP).png
+/Applications/Utilities/Android File Transfer (MTP).app/Resources/askpass.py
+/Applications/Utilities/Calculator.app/Calculator
+/Applications/Utilities/Calculator.app/Resources/Calculator.png
+/Applications/Utilities/Calculator.app/Resources/LICENSE
+/Applications/Utilities/Calculator.app/Resources/calculator.py
+/Applications/Utilities/Calendar.app/Calendar
+/Applications/Utilities/Calendar.app/Calendar.py
+/Applications/Utilities/Calendar.app/Resources/Calendar.png
+/Applications/Utilities/Create Live Media.app/Create Live Media
+/Applications/Utilities/Create Live Media.app/Resources/Create Live Media.png
+/Applications/Utilities/Create Live Media.app/Resources/Create Live Media.svg
+/Applications/Utilities/Create Live Media.app/Resources/LICENSE
+/Applications/Utilities/Create Live Media.app/Resources/askpass.py
+/Applications/Utilities/Create Live Media.app/Resources/bgusb.png
+/Applications/Utilities/Create Live Media.app/Resources/check.png
+/Applications/Utilities/Create Live Media.app/Resources/create-livemedia.py
+/Applications/Utilities/Create Live Media.app/Resources/cross.png
+/Applications/Utilities/Create Live Media.app/Resources/disks.py
+/Applications/Utilities/Create Live Media.app/Resources/i18n/cs.ts
+/Applications/Utilities/Create Live Media.app/Resources/i18n/da.ts
+/Applications/Utilities/Create Live Media.app/Resources/i18n/de.ts
+/Applications/Utilities/Create Live Media.app/Resources/i18n/el.ts
+/Applications/Utilities/Create Live Media.app/Resources/i18n/en.ts
+/Applications/Utilities/Create Live Media.app/Resources/i18n/eo.ts
+/Applications/Utilities/Create Live Media.app/Resources/i18n/es.ts
+/Applications/Utilities/Create Live Media.app/Resources/i18n/fr.ts
+/Applications/Utilities/Create Live Media.app/Resources/i18n/he.ts
+/Applications/Utilities/Create Live Media.app/Resources/i18n/hu.ts
+/Applications/Utilities/Create Live Media.app/Resources/i18n/it.ts
+/Applications/Utilities/Create Live Media.app/Resources/i18n/ja.ts
+/Applications/Utilities/Create Live Media.app/Resources/i18n/ka.ts
+/Applications/Utilities/Create Live Media.app/Resources/i18n/ko.ts
+/Applications/Utilities/Create Live Media.app/Resources/i18n/lt.ts
+/Applications/Utilities/Create Live Media.app/Resources/i18n/nb_NO.ts
+/Applications/Utilities/Create Live Media.app/Resources/i18n/nl.ts
+/Applications/Utilities/Create Live Media.app/Resources/i18n/pl.ts
+/Applications/Utilities/Create Live Media.app/Resources/i18n/pt.ts
+/Applications/Utilities/Create Live Media.app/Resources/i18n/pt_BR.ts
+/Applications/Utilities/Create Live Media.app/Resources/i18n/ru.ts
+/Applications/Utilities/Create Live Media.app/Resources/i18n/sl.ts
+/Applications/Utilities/Create Live Media.app/Resources/i18n/sv.ts
+/Applications/Utilities/Create Live Media.app/Resources/i18n/tr.ts
+/Applications/Utilities/Create Live Media.app/Resources/i18n/uk.ts
+/Applications/Utilities/Create Live Media.app/Resources/i18n/zh_Hans.ts
+/Applications/Utilities/Create Live Media.app/Resources/i18n/zh_Hant.ts
+/Applications/Utilities/Create Live Media.app/Resources/tstranslator.py
+/Applications/Utilities/Create Live Media.app/Resources/usbsuccess.svg
+/Applications/Utilities/Hardware Probe.app/Hardware Probe
+/Applications/Utilities/Hardware Probe.app/Resources/Hardware Probe.png
+/Applications/Utilities/Hardware Probe.app/Resources/LICENSE
+/Applications/Utilities/Hardware Probe.app/Resources/Stethoscope-icon.png
+/Applications/Utilities/Hardware Probe.app/Resources/askpass.py
+/Applications/Utilities/Hardware Probe.app/Resources/check.png
+/Applications/Utilities/Hardware Probe.app/Resources/cross.png
+/Applications/Utilities/Hardware Probe.app/Resources/hardware-probe.py
+/Applications/Utilities/Hardware Probe.app/Resources/i18n/cs.ts
+/Applications/Utilities/Hardware Probe.app/Resources/i18n/da.ts
+/Applications/Utilities/Hardware Probe.app/Resources/i18n/de.ts
+/Applications/Utilities/Hardware Probe.app/Resources/i18n/el.ts
+/Applications/Utilities/Hardware Probe.app/Resources/i18n/en.ts
+/Applications/Utilities/Hardware Probe.app/Resources/i18n/eo.ts
+/Applications/Utilities/Hardware Probe.app/Resources/i18n/es.ts
+/Applications/Utilities/Hardware Probe.app/Resources/i18n/fr.ts
+/Applications/Utilities/Hardware Probe.app/Resources/i18n/he.ts
+/Applications/Utilities/Hardware Probe.app/Resources/i18n/hu.ts
+/Applications/Utilities/Hardware Probe.app/Resources/i18n/it.ts
+/Applications/Utilities/Hardware Probe.app/Resources/i18n/ja.ts
+/Applications/Utilities/Hardware Probe.app/Resources/i18n/ka.ts
+/Applications/Utilities/Hardware Probe.app/Resources/i18n/ko.ts
+/Applications/Utilities/Hardware Probe.app/Resources/i18n/lt.ts
+/Applications/Utilities/Hardware Probe.app/Resources/i18n/nb_NO.ts
+/Applications/Utilities/Hardware Probe.app/Resources/i18n/nl.ts
+/Applications/Utilities/Hardware Probe.app/Resources/i18n/pl.ts
+/Applications/Utilities/Hardware Probe.app/Resources/i18n/pt.ts
+/Applications/Utilities/Hardware Probe.app/Resources/i18n/pt_BR.ts
+/Applications/Utilities/Hardware Probe.app/Resources/i18n/ru.ts
+/Applications/Utilities/Hardware Probe.app/Resources/i18n/sl.ts
+/Applications/Utilities/Hardware Probe.app/Resources/i18n/sv.ts
+/Applications/Utilities/Hardware Probe.app/Resources/i18n/tr.ts
+/Applications/Utilities/Hardware Probe.app/Resources/i18n/uk.ts
+/Applications/Utilities/Hardware Probe.app/Resources/i18n/zh_Hans.ts
+/Applications/Utilities/Hardware Probe.app/Resources/i18n/zh_Hant.ts
+/Applications/Utilities/Hardware Probe.app/Resources/intro.txt
+/Applications/Utilities/Hardware Probe.app/Resources/tstranslator.py
+/Applications/Utilities/Help.app/Help
+/Applications/Utilities/Help.app/Resources/Help.png
+/Applications/Utilities/Install Developer Tools.app/Install Developer Tools
+/Applications/Utilities/Install Developer Tools.app/Resources/Background.png
+/Applications/Utilities/Install Developer Tools.app/Resources/Install Developer Tools.png
+/Applications/Utilities/Install Developer Tools.app/Resources/LICENSE
+/Applications/Utilities/Install Developer Tools.app/Resources/README.md
+/Applications/Utilities/Install Developer Tools.app/Resources/check.png
+/Applications/Utilities/Install Developer Tools.app/Resources/cross.png
+/Applications/Utilities/Install Developer Tools.app/Resources/developer-install.py
+/Applications/Utilities/Install Developer Tools.app/Resources/developer-install.sh
+/Applications/Utilities/Install Developer Tools.app/Resources/disks.py
+/Applications/Utilities/Install Developer Tools.app/Resources/i18n/cs.ts
+/Applications/Utilities/Install Developer Tools.app/Resources/i18n/da.ts
+/Applications/Utilities/Install Developer Tools.app/Resources/i18n/de.ts
+/Applications/Utilities/Install Developer Tools.app/Resources/i18n/el.ts
+/Applications/Utilities/Install Developer Tools.app/Resources/i18n/en.ts
+/Applications/Utilities/Install Developer Tools.app/Resources/i18n/eo.ts
+/Applications/Utilities/Install Developer Tools.app/Resources/i18n/es.ts
+/Applications/Utilities/Install Developer Tools.app/Resources/i18n/fr.ts
+/Applications/Utilities/Install Developer Tools.app/Resources/i18n/he.ts
+/Applications/Utilities/Install Developer Tools.app/Resources/i18n/hu.ts
+/Applications/Utilities/Install Developer Tools.app/Resources/i18n/it.ts
+/Applications/Utilities/Install Developer Tools.app/Resources/i18n/ja.ts
+/Applications/Utilities/Install Developer Tools.app/Resources/i18n/ka.ts
+/Applications/Utilities/Install Developer Tools.app/Resources/i18n/ko.ts
+/Applications/Utilities/Install Developer Tools.app/Resources/i18n/lt.ts
+/Applications/Utilities/Install Developer Tools.app/Resources/i18n/nb_NO.ts
+/Applications/Utilities/Install Developer Tools.app/Resources/i18n/nl.ts
+/Applications/Utilities/Install Developer Tools.app/Resources/i18n/pl.ts
+/Applications/Utilities/Install Developer Tools.app/Resources/i18n/pt.ts
+/Applications/Utilities/Install Developer Tools.app/Resources/i18n/pt_BR.ts
+/Applications/Utilities/Install Developer Tools.app/Resources/i18n/ru.ts
+/Applications/Utilities/Install Developer Tools.app/Resources/i18n/sl.ts
+/Applications/Utilities/Install Developer Tools.app/Resources/i18n/sv.ts
+/Applications/Utilities/Install Developer Tools.app/Resources/i18n/tr.ts
+/Applications/Utilities/Install Developer Tools.app/Resources/i18n/uk.ts
+/Applications/Utilities/Install Developer Tools.app/Resources/i18n/zh_Hans.ts
+/Applications/Utilities/Install Developer Tools.app/Resources/i18n/zh_Hant.ts
+/Applications/Utilities/Install Developer Tools.app/Resources/tstranslator.py
+/Applications/Utilities/Install FreeBSD.app/Install FreeBSD
+/Applications/Utilities/Install FreeBSD.app/Resources/Background.png
+/Applications/Utilities/Install FreeBSD.app/Resources/FREEBSD_Logo_Vert_Pos_RGB.png
+/Applications/Utilities/Install FreeBSD.app/Resources/Install FreeBSD.png
+/Applications/Utilities/Install FreeBSD.app/Resources/LICENSE
+/Applications/Utilities/Install FreeBSD.app/Resources/README.md
+/Applications/Utilities/Install FreeBSD.app/Resources/askpass.py
+/Applications/Utilities/Install FreeBSD.app/Resources/check.png
+/Applications/Utilities/Install FreeBSD.app/Resources/countries.json
+/Applications/Utilities/Install FreeBSD.app/Resources/cross.png
+/Applications/Utilities/Install FreeBSD.app/Resources/disks.py
+/Applications/Utilities/Install FreeBSD.app/Resources/freebsd-install.py
+/Applications/Utilities/Install FreeBSD.app/Resources/i18n/cs.ts
+/Applications/Utilities/Install FreeBSD.app/Resources/i18n/da.ts
+/Applications/Utilities/Install FreeBSD.app/Resources/i18n/de.ts
+/Applications/Utilities/Install FreeBSD.app/Resources/i18n/el.ts
+/Applications/Utilities/Install FreeBSD.app/Resources/i18n/en.ts
+/Applications/Utilities/Install FreeBSD.app/Resources/i18n/eo.ts
+/Applications/Utilities/Install FreeBSD.app/Resources/i18n/es.ts
+/Applications/Utilities/Install FreeBSD.app/Resources/i18n/fr.ts
+/Applications/Utilities/Install FreeBSD.app/Resources/i18n/he.ts
+/Applications/Utilities/Install FreeBSD.app/Resources/i18n/hu.ts
+/Applications/Utilities/Install FreeBSD.app/Resources/i18n/it.ts
+/Applications/Utilities/Install FreeBSD.app/Resources/i18n/ja.ts
+/Applications/Utilities/Install FreeBSD.app/Resources/i18n/ka.ts
+/Applications/Utilities/Install FreeBSD.app/Resources/i18n/ko.ts
+/Applications/Utilities/Install FreeBSD.app/Resources/i18n/lt.ts
+/Applications/Utilities/Install FreeBSD.app/Resources/i18n/nb_NO.ts
+/Applications/Utilities/Install FreeBSD.app/Resources/i18n/nl.ts
+/Applications/Utilities/Install FreeBSD.app/Resources/i18n/pl.ts
+/Applications/Utilities/Install FreeBSD.app/Resources/i18n/pt.ts
+/Applications/Utilities/Install FreeBSD.app/Resources/i18n/pt_BR.ts
+/Applications/Utilities/Install FreeBSD.app/Resources/i18n/ru.ts
+/Applications/Utilities/Install FreeBSD.app/Resources/i18n/sl.ts
+/Applications/Utilities/Install FreeBSD.app/Resources/i18n/sv.ts
+/Applications/Utilities/Install FreeBSD.app/Resources/i18n/tr.ts
+/Applications/Utilities/Install FreeBSD.app/Resources/i18n/uk.ts
+/Applications/Utilities/Install FreeBSD.app/Resources/i18n/zh_Hans.ts
+/Applications/Utilities/Install FreeBSD.app/Resources/i18n/zh_Hant.ts
+/Applications/Utilities/Install FreeBSD.app/Resources/languages.json
+/Applications/Utilities/Install FreeBSD.app/Resources/tstranslator.py
+/Applications/Utilities/Logs.app/Logs
+/Applications/Utilities/Logs.app/Resources/Logs.png
+/Applications/Utilities/Logs.app/Resources/logs.py
+/Applications/Utilities/Remote Assistance.app/Remote Assistance
+/Applications/Utilities/Remote Assistance.app/Resources/Remote Assistance.png
+/Applications/Utilities/Remote Assistance.app/Resources/remote_assistance.py
+/Applications/Utilities/Remote Assistance.app/Resources/remote_assistance_client.py
+/Applications/Utilities/Remote Assistance.app/Resources/speakable.py
+/Applications/Utilities/Zeroconf.app/Resources/Info-gnustep.plist
+/Applications/Utilities/Zeroconf.app/Resources/Zeroconf.png
+/Applications/Utilities/Zeroconf.app/Zeroconf
+/Applications/Video/OBS Studio.app/OBS Studio
+/Applications/Video/OBS Studio.app/Resources/OBS Studio.png
+/Applications/Video/OBS Studio.app/Resources/askpass.py
+/Applications/Video/OBS Studio.app/Resources/executable
+/Applications/Video/OBS Studio.app/Resources/packages
+/Applications/Video/Shotcut.app/Resources/Shotcut.png
+/Applications/Video/Shotcut.app/Resources/askpass.py
+/Applications/Video/Shotcut.app/Resources/executable
+/Applications/Video/Shotcut.app/Resources/packages
+/Applications/Video/Shotcut.app/Shotcut
+/System/Format Disk.app/Format Disk
+/System/Format Disk.app/Resources/Format Disk.png
+/System/Format Disk.app/Resources/can-open
+/System/Format Disk.app/Resources/disks.py
+/System/Format Disk.app/Resources/filesystems.py
+/System/Format Disk.app/Resources/formatdisk.py
+/System/Format Disk.app/Resources/formatdisk.ui
+/System/Format Disk.app/Resources/i18n/cs.ts
+/System/Format Disk.app/Resources/i18n/da.ts
+/System/Format Disk.app/Resources/i18n/de.ts
+/System/Format Disk.app/Resources/i18n/el.ts
+/System/Format Disk.app/Resources/i18n/en.ts
+/System/Format Disk.app/Resources/i18n/eo.ts
+/System/Format Disk.app/Resources/i18n/es.ts
+/System/Format Disk.app/Resources/i18n/fr.ts
+/System/Format Disk.app/Resources/i18n/he.ts
+/System/Format Disk.app/Resources/i18n/hu.ts
+/System/Format Disk.app/Resources/i18n/it.ts
+/System/Format Disk.app/Resources/i18n/ja.ts
+/System/Format Disk.app/Resources/i18n/ka.ts
+/System/Format Disk.app/Resources/i18n/ko.ts
+/System/Format Disk.app/Resources/i18n/lt.ts
+/System/Format Disk.app/Resources/i18n/nb_NO.ts
+/System/Format Disk.app/Resources/i18n/nl.ts
+/System/Format Disk.app/Resources/i18n/pl.ts
+/System/Format Disk.app/Resources/i18n/pt.ts
+/System/Format Disk.app/Resources/i18n/pt_BR.ts
+/System/Format Disk.app/Resources/i18n/ru.ts
+/System/Format Disk.app/Resources/i18n/sl.ts
+/System/Format Disk.app/Resources/i18n/sv.ts
+/System/Format Disk.app/Resources/i18n/tr.ts
+/System/Format Disk.app/Resources/i18n/uk.ts
+/System/Format Disk.app/Resources/i18n/zh_Hans.ts
+/System/Format Disk.app/Resources/i18n/zh_Hant.ts
+/System/Format Disk.app/Resources/small_spinner.gif
+/System/Format Disk.app/Resources/spinner.gif
+/System/Format Disk.app/Resources/tstranslator.py
+/System/Mount Disk Image.app/Mount Disk Image
+/System/Mount Disk Image.app/Resources/Mount Disk Image.png
+/System/Mount Disk Image.app/Resources/diskimage.png
+/System/Mount Disk Image.app/Resources/mount_md_gui.py
+/System/Mount Disk Image.app/Resources/tstranslator.py
+/System/Volume.app/Resources/Volume.png
+/System/Volume.app/Resources/audio-volume-high-symbolic.png
+/System/Volume.app/Volume
+/System/Welcome.app/Resources/LICENSE
+/System/Welcome.app/Resources/Welcome.png
+/System/Welcome.app/Resources/content.cn.md
+/System/Welcome.app/Resources/content.de.md
+/System/Welcome.app/Resources/content.en.md
+/System/Welcome.app/Resources/content.es.md
+/System/Welcome.app/Resources/content.fr.md
+/System/Welcome.app/Resources/content.jp.md
+/System/Welcome.app/Resources/hello_variation.svg
+/System/Welcome.app/Resources/main.qml
+/System/Welcome.app/Resources/welcome-wizard.py
+/System/Welcome.app/Welcome
+@dir /Applications/3D Printing/FreeCAD.app/Resources
+@dir /Applications/3D Printing/FreeCAD.app
+@dir /Applications/3D Printing/PrusaSlicer.app/Resources
+@dir /Applications/3D Printing/PrusaSlicer.app
+@dir /Applications/3D Printing/Ultimaker Cura.app/Resources
+@dir /Applications/3D Printing/Ultimaker Cura.app
+@dir /Applications/3D Printing
+@dir /Applications/Audio/Audacious.app/Resources
+@dir /Applications/Audio/Audacious.app
+@dir /Applications/Audio/Audacity.app/Resources
+@dir /Applications/Audio/Audacity.app
+@dir /Applications/Audio/LMMS.app/Resources
+@dir /Applications/Audio/LMMS.app
+@dir /Applications/Audio/MuseScore.app/Resources
+@dir /Applications/Audio/MuseScore.app
+@dir /Applications/Audio
+@dir /Applications/Developer/GammaRay.app/Resources
+@dir /Applications/Developer/GammaRay.app
+@dir /Applications/Developer/LiteIDE.app/Resources
+@dir /Applications/Developer/LiteIDE.app
+@dir /Applications/Developer/PyCharm CE.app/Resources
+@dir /Applications/Developer/PyCharm CE.app
+@dir /Applications/Developer/Qt Creator.app/Resources
+@dir /Applications/Developer/Qt Creator.app
+@dir /Applications/Developer/Zeal.app/Resources
+@dir /Applications/Developer/Zeal.app
+@dir /Applications/Developer
+@dir /Applications/Graphics/Blender.app/Resources
+@dir /Applications/Graphics/Blender.app
+@dir /Applications/Graphics/GIMP.app/Resources
+@dir /Applications/Graphics/GIMP.app
+@dir /Applications/Graphics/Inkscape.app/Resources
+@dir /Applications/Graphics/Inkscape.app
+@dir /Applications/Graphics/Krita.app/Resources
+@dir /Applications/Graphics/Krita.app
+@dir /Applications/Graphics/Scribus.app/Resources
+@dir /Applications/Graphics/Scribus.app
+@dir /Applications/Graphics/Skanlite.app/Resources
+@dir /Applications/Graphics/Skanlite.app
+@dir /Applications/Graphics
+@dir /Applications/Internet/Chromium.app/Resources
+@dir /Applications/Internet/Chromium.app
+@dir /Applications/Internet/Falkon.app/Resources
+@dir /Applications/Internet/Falkon.app
+@dir /Applications/Internet/Firefox.app/Resources
+@dir /Applications/Internet/Firefox.app
+@dir /Applications/Internet/Thunderbird.app/Resources
+@dir /Applications/Internet/Thunderbird.app
+@dir /Applications/Internet/Trojitá.app/Resources
+@dir /Applications/Internet/Trojitá.app
+@dir /Applications/Internet
+@dir /Applications/Office/LibreOffice.app/Resources
+@dir /Applications/Office/LibreOffice.app
+@dir /Applications/Office
+@dir /Applications/Preferences/Boot Environments.app/Resources
+@dir /Applications/Preferences/Boot Environments.app
+@dir /Applications/Preferences/Desktop.app
+@dir /Applications/Preferences/Fonts.app/Resources
+@dir /Applications/Preferences/Fonts.app
+@dir /Applications/Preferences/Keyboard.app/Resources
+@dir /Applications/Preferences/Keyboard.app
+@dir /Applications/Preferences/Mouse.app/Resources
+@dir /Applications/Preferences/Mouse.app
+@dir /Applications/Preferences/Sharing.app/Resources
+@dir /Applications/Preferences/Sharing.app
+@dir /Applications/Preferences/Users.app/Resources
+@dir /Applications/Preferences/Users.app
+@dir /Applications/Preferences/Wireless Networks.app/Resources
+@dir /Applications/Preferences/Wireless Networks.app
+@dir /Applications/Preferences
+@dir /Applications/Under Construction/Battery.app/Resources
+@dir /Applications/Under Construction/Battery.app
+@dir /Applications/Under Construction/Burn Optical Disc.app/Resources
+@dir /Applications/Under Construction/Burn Optical Disc.app
+@dir /Applications/Under Construction/Disk First Aid.app/Resources
+@dir /Applications/Under Construction/Disk First Aid.app
+@dir /Applications/Under Construction/Disk Utility.app/Resources
+@dir /Applications/Under Construction/Disk Utility.app
+@dir /Applications/Under Construction/Download Applications.app/Resources
+@dir /Applications/Under Construction/Download Applications.app
+@dir /Applications/Under Construction/Energy Saving.app/Resources
+@dir /Applications/Under Construction/Energy Saving.app
+@dir /Applications/Under Construction/Install Debian Runtime.app/Resources
+@dir /Applications/Under Construction/Install Debian Runtime.app
+@dir /Applications/Under Construction/Network.app/Resources
+@dir /Applications/Under Construction/Network.app
+@dir /Applications/Under Construction/Screencast.app/Resources
+@dir /Applications/Under Construction/Screencast.app
+@dir /Applications/Under Construction/Simple Browser.app/Resources/images
+@dir /Applications/Under Construction/Simple Browser.app/Resources
+@dir /Applications/Under Construction/Simple Browser.app
+@dir /Applications/Under Construction/Start Disk.app/Resources
+@dir /Applications/Under Construction/Start Disk.app
+@dir /Applications/Under Construction/Update.app/Resources/i18n
+@dir /Applications/Under Construction/Update.app/Resources
+@dir /Applications/Under Construction/Update.app
+@dir /Applications/Under Construction
+@dir /Applications/Utilities/Android File Transfer (MTP).app/Resources
+@dir /Applications/Utilities/Android File Transfer (MTP).app
+@dir /Applications/Utilities/Calculator.app/Resources
+@dir /Applications/Utilities/Calculator.app
+@dir /Applications/Utilities/Calendar.app/Resources
+@dir /Applications/Utilities/Calendar.app
+@dir /Applications/Utilities/Create Live Media.app/Resources/i18n
+@dir /Applications/Utilities/Create Live Media.app/Resources
+@dir /Applications/Utilities/Create Live Media.app
+@dir /Applications/Utilities/Hardware Probe.app/Resources/i18n
+@dir /Applications/Utilities/Hardware Probe.app/Resources
+@dir /Applications/Utilities/Hardware Probe.app
+@dir /Applications/Utilities/Help.app/Resources
+@dir /Applications/Utilities/Help.app
+@dir /Applications/Utilities/Install Developer Tools.app/Resources/i18n
+@dir /Applications/Utilities/Install Developer Tools.app/Resources
+@dir /Applications/Utilities/Install Developer Tools.app
+@dir /Applications/Utilities/Install FreeBSD.app/Resources/i18n
+@dir /Applications/Utilities/Install FreeBSD.app/Resources
+@dir /Applications/Utilities/Install FreeBSD.app
+@dir /Applications/Utilities/Logs.app/Resources
+@dir /Applications/Utilities/Logs.app
+@dir /Applications/Utilities/Remote Assistance.app/Resources
+@dir /Applications/Utilities/Remote Assistance.app
+@dir /Applications/Utilities/Zeroconf.app/Resources
+@dir /Applications/Utilities/Zeroconf.app
+@dir /Applications/Utilities
+@dir /Applications/Video/OBS Studio.app/Resources
+@dir /Applications/Video/OBS Studio.app
+@dir /Applications/Video/Shotcut.app/Resources
+@dir /Applications/Video/Shotcut.app
+@dir /Applications/Video
+@dir /Applications
+@dir /System/Format Disk.app/Resources/i18n
+@dir /System/Format Disk.app/Resources
+@dir /System/Format Disk.app
+@dir /System/Mount Disk Image.app/Resources
+@dir /System/Mount Disk Image.app
+@dir /System/Volume.app/Resources
+@dir /System/Volume.app
+@dir /System/Welcome.app/Resources
+@dir /System/Welcome.app
+@dir /System
