@@ -49,9 +49,9 @@ ln -sf $(readlink -f ./sysutils/hellodesktop-qtplugin) /usr/ports/sysutils/
 # Utilities
 # Try prevent it from compiling python packages...
 # pkg install -y databases/py-sqlite3 devel/py-dateutil devel/py-pip devel/py-pyelftools devel/py-pytz devel/py-qt5-pyqt devel/py-xattr devel/py-xdg devel/py-xmltodict python3 sysutils/py-psutil www/py-beautifulsoup www/py-qt5-webengine
-# ( cd sysutils/hellodesktop-utilities && make build-depends-list | cut -c 12- | xargs pkg install -y )
-# make -C sysutils/hellodesktop-utilities package
-# ln -sf $(readlink -f ./sysutils/hellodesktop-utilities) /usr/ports/sysutils/
+( cd sysutils/hellodesktop-utilities && make build-depends-list | cut -c 12- | xargs pkg install -y )
+make -C sysutils/hellodesktop-utilities package
+ln -sf $(readlink -f ./sysutils/hellodesktop-utilities) /usr/ports/sysutils/
 
 # helloDesktop meta port
 make -C x11-wm/hellodesktop package

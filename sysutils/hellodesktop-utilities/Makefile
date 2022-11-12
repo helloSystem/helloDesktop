@@ -24,7 +24,8 @@ RUN_DEPENDS=    sysutils/hellodesktop-launch>=0:sysutils/hellodesktop-launch \
 		${PYTHON_PKGNAMEPREFIX}beautifulsoup>=0:www/py-beautifulsoup@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}qt5-webengine>=0:www/py-qt5-webengine@${PY_FLAVOR}
 
-USES=		python:3.6+
+USES=		python
+PYTHON_NO_DEPENDS=	yes
 
 NO_ARCH=        yes
 NO_BUILD=       yes
@@ -45,9 +46,10 @@ do-install:
 	(cd ${STAGEDIR}/Applications && mv System ..)
 	(cd ${STAGEDIR}/Applications && mv Root/* ./Utilities/ && rm -r Root)
 	(cd ${STAGEDIR} && find . -type f -name '.git*' -delete)
-	(cd ${STAGEDIR} && find . -type f -or -type l > ${STAGEDIR}/../../pkg-plist)
+	(cd ${STAGEDIR} && find . -type f > ${STAGEDIR}/../../pkg-plist)
+	(cd ${STAGEDIR} && find . -type l -and -not -name '..' -and -not -name '.' >> ${STAGEDIR}/../../pkg-plist)
 	sed -i '' -e 's|^\./|/|g' ${STAGEDIR}/../../pkg-plist
-	(cd ${STAGEDIR} && find . -type d >> ${STAGEDIR}/../../pkg-plist)
+	(cd ${STAGEDIR} && find . -type d -and -not -name '..' -and -not -name '.' >> ${STAGEDIR}/../../pkg-plist)
 	sed -i '' -e 's|^\./|@dir /|g' ${STAGEDIR}/../../pkg-plist
 
 .include <bsd.port.mk>
