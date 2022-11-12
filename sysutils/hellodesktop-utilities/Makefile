@@ -12,18 +12,18 @@ LICENSE=        BSD
 # grep -r py ISO/settings/packages.* | cut -d ":" -f 2-99 | grep -v "^#" | sort | uniq
 
 RUN_DEPENDS=    sysutils/hellodesktop-launch>=0:sysutils/hellodesktop-launch \
-		databases/py-sqlite3>=0:databases/py-sqlite3@${PY_FLAVOR} \
-		devel/py-dateutil>=0:devel/py-dateutil@${PY_FLAVOR} \
-		devel/py-pip>=0:devel/py-pip@${PY_FLAVOR} \
-		devel/py-pyelftools>=0:devel/py-pyelftools@${PY_FLAVOR} \
-		devel/py-pytz>=0:devel/py-pytz@${PY_FLAVOR} \
-		devel/py-qt5-pyqt>=0:devel/py-qt5-pyqt@${PY_FLAVOR} \
-		devel/py-xattr>=0:devel/py-xattr@${PY_FLAVOR} \
-		devel/py-xdg>=0:devel/py-xdg@${PY_FLAVOR} \
-		devel/py-xmltodict>=0:devel/py-xmltodict@${PY_FLAVOR} \
-		sysutils/py-psutil>=0:sysutils/py-psutil@${PY_FLAVOR} \
-		www/py-beautifulsoup>=0:www/py-beautifulsoup@${PY_FLAVOR} \
-		www/py-qt5-webengine>=0:www/py-qt5-webengine@${PY_FLAVOR}
+		databases/py-sqlite3>=0:databases/py-sqlite3 \
+		devel/py-dateutil>=0:devel/py-dateutil \
+		devel/py-pip>=0:devel/py-pip \
+		devel/py-pyelftools>=0:devel/py-pyelftools \
+		devel/py-pytz>=0:devel/py-pytz \
+		devel/py-qt5-pyqt>=0:devel/py-qt5-pyqt \
+		devel/py-xattr>=0:devel/py-xattr \
+		devel/py-xdg>=0:devel/py-xdg \
+		devel/py-xmltodict>=0:devel/py-xmltodict \
+		sysutils/py-psutil>=0:sysutils/py-psutil \
+		www/py-beautifulsoup>=0:www/py-beautifulsoup \
+		www/py-qt5-webengine>=0:www/py-qt5-webengine
 
 NO_ARCH=        yes
 NO_BUILD=       yes
