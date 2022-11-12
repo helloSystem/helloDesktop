@@ -1,3 +1,4 @@
+etc/xdg/stylesheet.qss
 %%QT_PLUGINDIR%%/platformthemes/libpanda-qtplugin.so
 %%QT_PLUGINDIR%%/styles/libpstyleplugin.so
 share/panda/sounds/ping.wav

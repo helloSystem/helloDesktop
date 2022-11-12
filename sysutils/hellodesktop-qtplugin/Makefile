@@ -1,5 +1,5 @@
 PORTNAME=	hellodesktop-qtplugin
-DISTVERSION=    g20221109
+DISTVERSION=    g20221111
 CATEGORIES=	sysutils
 
 MAINTAINER=	jsm@FreeBSD.org
@@ -19,7 +19,7 @@ USE_QT=		buildtools core dbus gui qmake svg x11extras widgets
 USE_GITHUB=     yes
 GH_ACCOUNT=     helloSystem:DEFAULT helloSystem:sounds
 GH_PROJECT=     QtPlugin:DEFAULT Sounds:sounds
-GH_TAGNAME=     3360df3:DEFAULT 363e922:sounds
+GH_TAGNAME=     fe30a15:DEFAULT 363e922:sounds
 GH_SUBDIR=	sounds:sounds
 USE_LDCONFIG=	yes
 
