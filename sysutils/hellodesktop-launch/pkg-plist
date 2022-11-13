@@ -1,3 +1,4 @@
+bin/bundle-thumbnailer
 bin/launch
 bin/open
-bin/bundle-thumbnailer
+sbin/xdg-open
