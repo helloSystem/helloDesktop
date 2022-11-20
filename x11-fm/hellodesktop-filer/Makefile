@@ -1,5 +1,5 @@
 PORTNAME=	hellodesktop-filer
-PORTVERSION=	g20221112
+PORTVERSION=	g20221120
 CATEGORIES=	x11-fm
 
 MAINTAINER=     jsm@FreeBSD.org
@@ -19,7 +19,7 @@ USES=		cmake compiler:c++14-lang desktop-file-utils gnome\
 USE_GITHUB=     yes
 GH_ACCOUNT=     helloSystem
 GH_PROJECT=     Filer
-GH_TAGNAME=	721f432
+GH_TAGNAME=	f27d18d
 
 USE_QT=		core dbus gui linguisttools multimedia network\
 		widgets x11extras
