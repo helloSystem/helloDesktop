@@ -65,6 +65,6 @@ pkg repo "${ABI}/"
 # index.html for the FreeBSD repository
 cd "${ABI}/"
 echo "<html>" > index.html
-find . -depth 1 -exec echo "<a>{}</a>" \; | sed -e 's|\./||g' >> index.html
+find . -depth 1 -exec echo '<a href="{}">{}</a>' \; | sed -e 's|\./||g' >> index.html
 echo "</html>" >> index.html
 cd -
