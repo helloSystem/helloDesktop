@@ -10,7 +10,7 @@ LICENSE=	GPLv2
 LIB_DEPENDS=	libmenu-cache.so:x11/menu-cache \
 		libfm.so:x11/libfm \
 		libexif.so:graphics/libexif
-RUN_DEPENDS=    sysutils/hellodesktop-launch>=20221120:sysutils/hellodesktop-launch
+RUN_DEPENDS=    sysutils/hellodesktop-launch>=g20221120:sysutils/hellodesktop-launch
 
 USES=		cmake compiler:c++14-lang desktop-file-utils gnome\
 		gettext-runtime localbase:ldflags pkgconfig kde:5 qt:5 \
