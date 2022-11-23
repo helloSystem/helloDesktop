@@ -1,0 +1,11 @@
+This is a modernized (as of 2019) fork of Executor, the "original" version of
+which you can still find upstream at https://github.com/ctm/executor.
+ :
+Why "2000"? Because that's what we used to call the future.
+ :
+Executor was a commercially available Mac emulator in the 90s - what makes it
+different from other Mac emulators is that it doesn't need a ROM file or any
+original Apple software to run; rather, it attempts to re-implement the classic
+Mac OS APIs, just as WINE does for Windows.
+ :
+WWW: https://github.com/autc04/executor

@@ -59,6 +59,10 @@ ln -sf $(readlink -f ./sysutils/hellodesktop-qtplugin) /usr/ports/sysutils/
 # helloDesktop meta port
 make -C x11-wm/hellodesktop package
 
+# emulators/executor2000; not part of helloDesktop
+( cd emulators/executor2000 && make build-depends-list | cut -c 12- | xargs pkg install -y )
+make -C emulators/executor2000 package
+
 # FreeBSD repository
 find . -name '*.pkg' -exec mv {} "${ABI}/" \;
 pkg repo "${ABI}/"

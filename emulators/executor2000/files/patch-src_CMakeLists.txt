@@ -1,0 +1,11 @@
+--- src/CMakeLists.txt.orig	2021-04-03 11:49:47 UTC
++++ src/CMakeLists.txt
+@@ -84,7 +84,7 @@ else()
+ endif()
+ source_group(HostOS FILES ${host_os_sources})
+ 
+-set(FRONT_ENDS qt x sdl sdl2 wayland)
++set(FRONT_ENDS qt)
+ 
+ if(CMAKE_COMPILER_IS_GNUCXX)
+     # -Wno-enum-compare: Mac OSErr codes are currently spread between different
