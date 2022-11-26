@@ -61,7 +61,6 @@ make -C x11-wm/hellodesktop package
 
 # emulators/executor2000; not part of helloDesktop
 ( cd emulators/executor2000 && make build-depends-list | cut -c 12- | xargs pkg install -y )
-pkg install lang/ruby27 # Why does the above not do this?
 make -C emulators/executor2000 package
 
 # FreeBSD repository
