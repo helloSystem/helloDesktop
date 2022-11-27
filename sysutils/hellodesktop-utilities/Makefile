@@ -1,5 +1,5 @@
 PORTNAME=	hellodesktop-utilities
-PORTVERSION=	g20221112
+DISTVERSION=	g20221125
 CATEGORIES=	sysutils
 
 MAINTAINER=     jsm@FreeBSD.org
@@ -33,7 +33,7 @@ NO_BUILD=       yes
 USE_GITHUB=     yes
 GH_ACCOUNT=     helloSystem
 GH_PROJECT=     Utilities
-GH_TAGNAME=	e071492
+GH_TAGNAME=	41e7d71
 
 # FIXME: Find a cleaner way to do this, but without having to change
 # the packaging each time a new application or directory is added

@@ -1,5 +1,5 @@
 PORTNAME=	hellodesktop-urwfonts-ttf
-PORTVERSION=	g20200910
+DISTVERSION=	g20211102
 CATEGORIES=	x11-fonts
 
 MAINTAINER=	jsm@FreeBSD.org
@@ -16,7 +16,7 @@ NO_BUILD=	yes
 USE_GITHUB=     yes
 GH_ACCOUNT=     ArtifexSoftware
 GH_PROJECT=     urw-base35-fonts
-GH_TAGNAME=     20200910
+GH_TAGNAME=     ae671b1
 
 SUB_FILES=	pkg-message
 

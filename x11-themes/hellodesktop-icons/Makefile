@@ -1,5 +1,5 @@
 PORTNAME=	hellodesktop-icons
-PORTVERSION=	0.10
+DISTVERSION=	0.10
 CATEGORIES=	x11-themes
 MASTER_SITES=   https://launchpad.net/ubuntu/+archive/primary/+sourcefiles/xubuntu-artwork/16.04.2/
 DISTNAME=       xubuntu-artwork_16.04.2

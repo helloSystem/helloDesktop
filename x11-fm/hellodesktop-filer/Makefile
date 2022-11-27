@@ -1,5 +1,5 @@
 PORTNAME=	hellodesktop-filer
-PORTVERSION=	g20221120
+DISTVERSION=	g20221126
 CATEGORIES=	x11-fm
 
 MAINTAINER=     jsm@FreeBSD.org
@@ -10,7 +10,7 @@ LICENSE=	GPLv2
 LIB_DEPENDS=	libmenu-cache.so:x11/menu-cache \
 		libfm.so:x11/libfm \
 		libexif.so:graphics/libexif
-RUN_DEPENDS=    sysutils/hellodesktop-launch>=g20221120:sysutils/hellodesktop-launch
+RUN_DEPENDS=    sysutils/hellodesktop-launch>=g20221126:sysutils/hellodesktop-launch
 
 USES=		cmake compiler:c++14-lang desktop-file-utils gnome\
 		gettext-runtime localbase:ldflags pkgconfig kde:5 qt:5 \
@@ -19,7 +19,7 @@ USES=		cmake compiler:c++14-lang desktop-file-utils gnome\
 USE_GITHUB=     yes
 GH_ACCOUNT=     helloSystem
 GH_PROJECT=     Filer
-GH_TAGNAME=	f27d18d
+GH_TAGNAME=	881ba6f
 
 USE_QT=		core dbus gui linguisttools multimedia network\
 		widgets x11extras
