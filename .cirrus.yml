@@ -32,6 +32,7 @@ task:
     ccache_setup_script:
       - env IGNORE_OSVERSION=yes pkg install -y ccache-static
       - ccache --max-size=${CCACHE_SIZE}
+      - echo "WITH_CCACHE_BUILD=yes" >> /etc/make.conf
 
     build_script:
       - ./build.sh
