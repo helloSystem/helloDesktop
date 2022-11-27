@@ -19,9 +19,6 @@ task:
       CCACHE_TEMPDIR: "/tmp"
     ccache_cache:
       folder: ${CCACHE_DIR}
-    distfiles_cache:
-      folder: ${DISTFILES_CACHE}
-      populate_script: mkdir -p ${DISTFILES_CACHE}
     timeout_in: 90m
 
     prerequisites_script:
