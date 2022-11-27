@@ -17,6 +17,7 @@ task:
       CCACHE_STATIC_PREFIX: "/usr/local"
       CCACHE_NOSTATS: 1
       CCACHE_TEMPDIR: "/tmp"
+      WITH_CCACHE_BUILD: "YES"
     ccache_cache:
       folder: ${CCACHE_DIR}
     timeout_in: 90m
