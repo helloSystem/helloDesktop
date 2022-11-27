@@ -24,7 +24,7 @@ task:
       folder: /tmp/unionfs_cache
     timeout_in: 90m
 
-    unionfs_script:
+    unionfs_cache_script:
       - mkdir -p /tmp/unionfs_cache
       - mount -t unionfs /tmp/unionfs_cache /usr/local
 
