@@ -11,7 +11,7 @@ LICENSE=        BSD
 # Python dependencies derived with
 # grep -r py ISO/settings/packages.* | cut -d ":" -f 2-99 | grep -v "^#" | sort | uniq
 
-RUN_DEPENDS=    sysutils/hellodesktop-launch>=0:sysutils/hellodesktop-launch \
+RUN_DEPENDS=    sysutils/hellodesktop-launch>=g2022:sysutils/hellodesktop-launch \
 		${PYTHON_PKGNAMEPREFIX}sqlite3>=0:databases/py-sqlite3@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}dateutil>=0:devel/py-dateutil@${PY_FLAVOR} \
 		${PYTHON_PKGNAMEPREFIX}pyelftools>=0:devel/py-pyelftools@${PY_FLAVOR} \
