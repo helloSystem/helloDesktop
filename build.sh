@@ -46,6 +46,11 @@ ln -sf $(readlink -f ./x11-fonts/hellodesktop-urwfonts-ttf) /usr/ports/x11-fonts
 make -C sysutils/hellodesktop-qtplugin package
 ln -sf $(readlink -f ./sysutils/hellodesktop-qtplugin) /usr/ports/sysutils/
 
+# slim-lite
+( cd x11/slim && make build-depends-list | cut -c 12- | xargs pkg install -y )
+make -C x11/slim FLAVOR=lite package
+ln -sf $(readlink -f ./x11/slim) /usr/ports/x11
+
 # Utilities
 # Try to prevent it from compiling python packages...
 ## pyver=$(cat /usr/ports/Mk/bsd.default-versions.mk | grep ^PYTHON_DEFAULT | cut -d "=" -f 2 | xargs | sed -e 's|\.||g')
