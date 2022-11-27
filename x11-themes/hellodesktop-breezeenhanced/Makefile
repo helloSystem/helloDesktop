@@ -1,5 +1,5 @@
 PORTNAME=	hellodesktop-breezeenhanced
-DISTVERSION=    g20221113
+DISTVERSION=    g20221127
 CATEGORIES=	x11-themes
 
 MAINTAINER=	jsm@FreeBSD.org
@@ -16,7 +16,7 @@ USES=		cmake compiler:c++11-lib gettext kde:5 pkgconfig qt:5 tar:xz \
 USE_GITHUB=     yes
 GH_ACCOUNT=     helloSystem
 GH_PROJECT=     BreezeEnhanced
-GH_TAGNAME=     6f23cb4
+GH_TAGNAME=     a49fb92
 
 USE_KDE=	codecs config configwidgets coreaddons \
 		decoration ecm frameworkintegration guiaddons i18n iconthemes \
