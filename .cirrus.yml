@@ -46,3 +46,6 @@ task:
       
     binary_artifacts:
       path: "FreeBSD:**/*"
+
+    unionfs_cache_umount_script:
+      - umount /usr/local
