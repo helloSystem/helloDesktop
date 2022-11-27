@@ -20,13 +20,9 @@ task:
       WITH_CCACHE_BUILD: "YES"
     ccache_cache:
       folder: ${CCACHE_DIR}
-    unionfs_cache:
-      folder: /tmp/unionfs_cache
+    pkg_cache:
+      folder: /var/cache/pkg/
     timeout_in: 90m
-
-    unionfs_cache_script:
-      - mkdir -p /tmp/unionfs_cache
-      - mount -t unionfs /tmp/unionfs_cache /usr/local
 
     prerequisites_script:
       - ASSUME_ALWAYS_YES=yes pkg bootstrap -f
@@ -46,6 +42,3 @@ task:
       
     binary_artifacts:
       path: "FreeBSD:**/*"
-
-    unionfs_cache_umount_script:
-      - umount /usr/local
