@@ -2,45 +2,41 @@
 
 set -e
 
+build_package()
+{
+  PORT=$1
+  ( cd "${PORT}" && make build-depends-list | cut -c 12- | xargs pkg install -y ) 
+  make -C "${PORT}" package
+}
+
 mount -t unionfs $(readlink -f .) /usr/ports
 HERE="${PWD}"
 cd /usr/ports
 
-ABI=$(pkg config abi) # E.g., FreeBSD:13:amd64
-
-mkdir -p "${ABI}"
-
 # launch
-( cd sysutils/hellodesktop-launch && make build-depends-list | cut -c 12- | xargs pkg install -y ) 
-pkg install -y kf5-kwindowsystem qt5-qmake # Workaround for packages that are missed by the next line
-make -C sysutils/hellodesktop-launch package
+pkg install -y kf5-kwindowsystem qt5-qmake # Workaround for packages that are missed by sysutils/hellodesktop-launch
+build_package sysutils/hellodesktop-launch
 
 # gmenudbusmenuproxy-standalone
-( cd x11/gmenudbusmenuproxy-standalone && make build-depends-list | cut -c 12- | xargs pkg install -y ) 
-make -C x11/gmenudbusmenuproxy-standalone package
+build_package x11/gmenudbusmenuproxy-standalone
 
 # Menu
-( cd x11-wm/hellodesktop-menu && make build-depends-list | cut -c 12- | xargs pkg install -y ) 
-make -C x11-wm/hellodesktop-menu package
+build_package x11-wm/hellodesktop-menu
 
 # Filer
-( cd x11-fm/hellodesktop-filer && make build-depends-list | cut -c 12- | xargs pkg install -y ) 
-make -C x11-fm/hellodesktop-filer package
+build_package x11-fm/hellodesktop-filer
 
 # Icons
-make -C x11-themes/hellodesktop-icons package
+build_package x11-themes/hellodesktop-icons
 
 # BreezeEnhanced
-( cd x11-themes/hellodesktop-breezeenhanced && make build-depends-list | cut -c 12- | xargs pkg install -y ) 
-make -C x11-themes/hellodesktop-breezeenhanced package
+build_package x11-themes/hellodesktop-breezeenhanced
 
 # Fonts
-( cd x11-fonts/hellodesktop-urwfonts-ttf && make build-depends-list | cut -c 12- | xargs pkg install -y )
-make -C x11-fonts/hellodesktop-urwfonts-ttf package
+build_package x11-fonts/hellodesktop-urwfonts-ttf
 
 # QtPlugin
-( cd sysutils/hellodesktop-qtplugin && make build-depends-list | cut -c 12- | xargs pkg install -y )
-make -C sysutils/hellodesktop-qtplugin package
+build_package sysutils/hellodesktop-qtplugin
 
 # slim-lite
 ( cd x11/slim && make build-depends-list | cut -c 12- | xargs pkg install -y )
@@ -53,20 +49,22 @@ make -C x11/slim FLAVOR=lite package
 #py=py$pyver
 #pkg install -y $py-sqlite3 $py-dateutil $py-pyelftools $py-pytz $py-qt5-pyqt $py-xattr $py-xdg $py-xmltodict $py-psutil $py-beautifulsoup $py-qt5-webengine python$pyver
 #( cd sysutils/hellodesktop-utilities && make build-depends-list | cut -c 12- | xargs pkg install -y )
-#make -C sysutils/hellodesktop-utilities package
+build_package sysutils/hellodesktop-utilities
 
 # helloDesktop meta port
-make -C x11-wm/hellodesktop package
+build_package x11-wm/hellodesktop
 
 # emulators/executor2000; not part of helloDesktop
 # Fails to build due to conflicting files in ruby
 # ( cd emulators/executor2000 && make build-depends-list | cut -c 12- | xargs pkg install -y )
-# make -C emulators/executor2000 package
+build_package emulators/executor2000
 
 cd "${HERE}"
 umount /usr/ports
 
 # FreeBSD repository
+ABI=$(pkg config abi) # E.g., FreeBSD:13:amd64
+mkdir -p "${ABI}"
 find . -name '*.pkg' -exec mv {} "${ABI}/" \;
 pkg repo "${ABI}/"
 # index.html for the FreeBSD repository
