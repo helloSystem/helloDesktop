@@ -3,7 +3,8 @@
 set -e
 
 mount -t unionfs $(readlink -f .) /usr/ports
-pushd /usr/ports
+HERE="${PWD}"
+cd /usr/ports
 
 ABI=$(pkg config abi) # E.g., FreeBSD:13:amd64
 
@@ -62,7 +63,7 @@ make -C x11-wm/hellodesktop package
 # ( cd emulators/executor2000 && make build-depends-list | cut -c 12- | xargs pkg install -y )
 # make -C emulators/executor2000 package
 
-popd
+cd "${HERE}"
 umount /usr/ports
 
 # FreeBSD repository
