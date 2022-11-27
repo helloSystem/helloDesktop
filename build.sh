@@ -48,8 +48,7 @@ make -C x11/slim FLAVOR=lite package
 #pyver=39 # our ports tree is outdated on Cirrus, hence specifying it by hand
 #py=py$pyver
 #pkg install -y $py-sqlite3 $py-dateutil $py-pyelftools $py-pytz $py-qt5-pyqt $py-xattr $py-xdg $py-xmltodict $py-psutil $py-beautifulsoup $py-qt5-webengine python$pyver
-#( cd sysutils/hellodesktop-utilities && make build-depends-list | cut -c 12- | xargs pkg install -y )
-build_package sysutils/hellodesktop-utilities
+#build_package sysutils/hellodesktop-utilities
 
 # helloDesktop meta port
 build_package x11-wm/hellodesktop
