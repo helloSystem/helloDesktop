@@ -48,7 +48,8 @@ make -C x11/slim FLAVOR=lite package
 #pyver=39 # our ports tree is outdated on Cirrus, hence specifying it by hand
 #py=py$pyver
 #pkg install -y $py-sqlite3 $py-dateutil $py-pyelftools $py-pytz $py-qt5-pyqt $py-xattr $py-xdg $py-xmltodict $py-psutil $py-beautifulsoup $py-qt5-webengine python$pyver
-#build_package sysutils/hellodesktop-utilities
+# THE FOLLOWING WANTS TO BUILD PYHTON FROM SOURCE WHICH WE DO NOT WANT
+# build_package sysutils/hellodesktop-utilities
 
 # helloDesktop meta port
 build_package x11-wm/hellodesktop
@@ -56,7 +57,8 @@ build_package x11-wm/hellodesktop
 # emulators/executor2000; not part of helloDesktop
 # Fails to build due to conflicting files in ruby
 # ( cd emulators/executor2000 && make build-depends-list | cut -c 12- | xargs pkg install -y )
-build_package emulators/executor2000
+# THE FOLLOWING WANTS TO BUILD RUBY FROM SOURCE WHICH WE DO NOT WANT
+# build_package emulators/executor2000
 
 cd "${HERE}"
 umount /usr/ports
