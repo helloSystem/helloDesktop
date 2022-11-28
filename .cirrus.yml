@@ -20,6 +20,8 @@ task:
       WITH_CCACHE_BUILD: "YES"
     ccache_cache:
       folder: ${CCACHE_DIR}
+    pkg_cache:
+      folder: /var/cache/pkg/
     timeout_in: 90m
 
     prerequisites_script:
