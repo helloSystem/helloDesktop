@@ -52,7 +52,7 @@ make -C x11/slim FLAVOR=lite package
 #py=py$pyver
 #pkg install -y $py-sqlite3 $py-dateutil $py-pyelftools $py-pytz $py-qt5-pyqt $py-xattr $py-xdg $py-xmltodict $py-psutil $py-beautifulsoup $py-qt5-webengine python$pyver
 # THE FOLLOWING WANTS TO BUILD PYHTON FROM SOURCE WHICH WE DO NOT WANT
-build_package sysutils/hellodesktop-utilities
+# build_package sysutils/hellodesktop-utilities
 
 # helloDesktop meta port
 build_package x11-wm/hellodesktop
