@@ -12,7 +12,7 @@ LIB_DEPENDS=	libmenu-cache.so:x11/menu-cache \
 		libexif.so:graphics/libexif
 RUN_DEPENDS=    sysutils/hellodesktop-launch>=g2022:sysutils/hellodesktop-launch
 
-USES=		cmake compiler:c++14-lang desktop-file-utils gnome\
+USES=		cmake compiler:c++14-lang desktop-file-utils \
 		gettext-runtime localbase:ldflags pkgconfig kde:5 qt:5 \
 		xorg
 
@@ -23,7 +23,6 @@ GH_TAGNAME=	ccaf3b8
 
 USE_QT=		core dbus gui linguisttools multimedia network\
 		widgets x11extras
-USE_GNOME=	glib20
 USE_XORG=	x11
 USE_XORG=	xcb
 
