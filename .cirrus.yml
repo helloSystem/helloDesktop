@@ -18,6 +18,7 @@ task:
       CCACHE_NOSTATS: 1
       CCACHE_TEMPDIR: "/tmp"
       WITH_CCACHE_BUILD: "YES"
+      PORTS_BRANCH: "2022Q4"
     portstree_cache:
       folder: /usr/ports/
     ccache_cache:
@@ -31,7 +32,6 @@ task:
       - pkg install -y git-lite
 
     portstree_setup_script:
-      - env PORTS_BRANCH="2022Q4"
       - if [ ! -f "/usr/ports/${PORTS_BRANCH}" ] ; then mkdir -p /usr/ports && fetch "https://github.com/freebsd/freebsd-ports/archive/refs/heads/${PORTS_BRANCH}.tar.gz" -o - | tar xf - -C /usr/ports --strip-components=1 && touch "/usr/ports/${PORTS_BRANCH}" ; fi
 
     ccache_setup_script:
