@@ -14,6 +14,7 @@ HERE="${PWD}"
 cd /usr/ports
 
 # emulators/executor2000; not part of helloDesktop
+pkg install -y ruby27 # Why doesn't it install this from pkg automatically?
 build_package emulators/executor2000
 
 # launch
