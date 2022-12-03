@@ -12,7 +12,7 @@ LICENSE=	MIT
 LIB_DEPENDS=	libreadline.so:devel/readline \
 		libboost_filesystem.so:devel/boost-libs
 
-BUILD_DEPENDS=	ruby:lang/ruby27
+BUILD_DEPENDS=	ruby27:lang/ruby27
 
 USES=		cmake bison qt:5 compiler:c++17-lang perl5
 

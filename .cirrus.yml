@@ -18,6 +18,9 @@ task:
       CCACHE_NOSTATS: 1
       CCACHE_TEMPDIR: "/tmp"
       WITH_CCACHE_BUILD: "YES"
+      PORTS_BRANCH: "2022Q4"
+    portstree_cache:
+      folder: /usr/ports/
     ccache_cache:
       folder: ${CCACHE_DIR}
     pkg_cache:
@@ -27,10 +30,9 @@ task:
     prerequisites_script:
       - ASSUME_ALWAYS_YES=yes pkg bootstrap -f
       - pkg install -y git-lite
-      # Only download ports infrastructure but no ports; https://stackoverflow.com/a/52269934/2988
-      # rm -rf /usr/ports
-      # git clone --depth 1 --filter=blob:none --sparse https://github.com/freebsd/freebsd-ports.git /usr/ports
-      # ( cd /usr/ports ; git sparse-checkout set Keywords Mk Templates Tools ; cd - )
+
+    portstree_setup_script:
+      - if [ ! -f "/usr/ports/${PORTS_BRANCH}" ] ; then mkdir -p /usr/ports && fetch "https://github.com/freebsd/freebsd-ports/archive/refs/heads/${PORTS_BRANCH}.tar.gz" -o - | tar xf - -C /usr/ports --strip-components=1 && touch "/usr/ports/${PORTS_BRANCH}" ; fi
 
     ccache_setup_script:
       - env IGNORE_OSVERSION=yes pkg install -y ccache-static

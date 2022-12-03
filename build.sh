@@ -13,6 +13,9 @@ mount -t unionfs $(readlink -f .) /usr/ports
 HERE="${PWD}"
 cd /usr/ports
 
+# emulators/executor2000; not part of helloDesktop
+# build_package emulators/executor2000
+
 # launch
 pkg install -y kf5-kwindowsystem qt5-qmake # Workaround for packages that are missed by sysutils/hellodesktop-launch
 build_package sysutils/hellodesktop-launch
@@ -53,12 +56,6 @@ make -C x11/slim FLAVOR=lite package
 
 # helloDesktop meta port
 build_package x11-wm/hellodesktop
-
-# emulators/executor2000; not part of helloDesktop
-# Fails to build due to conflicting files in ruby
-# ( cd emulators/executor2000 && make build-depends-list | cut -c 12- | xargs pkg install -y )
-# THE FOLLOWING WANTS TO BUILD RUBY FROM SOURCE WHICH WE DO NOT WANT
-# build_package emulators/executor2000
 
 cd "${HERE}"
 umount /usr/ports
