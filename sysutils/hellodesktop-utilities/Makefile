@@ -33,7 +33,7 @@ NO_BUILD=       yes
 USE_GITHUB=     yes
 GH_ACCOUNT=     helloSystem
 GH_PROJECT=     Utilities
-GH_TAGNAME=	c9134c4
+GH_TAGNAME=	f48efee
 
 # FIXME: Find a cleaner way to do this, but without having to change
 # the packaging each time a new application or directory is added
