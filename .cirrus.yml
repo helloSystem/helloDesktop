@@ -1,5 +1,5 @@
 task:
-    alias: packages
+    alias: pkg
     freebsd_instance:
       cpu: 4
       memory: 16G
