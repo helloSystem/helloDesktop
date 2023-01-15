@@ -19,7 +19,7 @@ USES=	cmake compiler:c++14-lang gettext-runtime kde:5 pkgconfig qt:5 xorg
 USE_GITHUB=     yes
 GH_ACCOUNT=     helloSystem
 GH_PROJECT=     Menu
-GH_TAGNAME=	9051f8e
+GH_TAGNAME=	61f0785
 
 USE_KDE= 	dbusaddons windowsystem baloo globalaccel
 USE_QT=		buildtools core concurrent dbus declarative gui network qmake widgets x11extras
