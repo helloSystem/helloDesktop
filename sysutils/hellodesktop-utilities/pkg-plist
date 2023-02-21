@@ -209,47 +209,48 @@
 /Applications/Utilities/Remote Assistance.app/Resources/remote_assistance_client.py
 /Applications/Utilities/Remote Assistance.app/Resources/remote_assistance.py
 /Applications/Utilities/Remote Assistance.app/Remote Assistance
-/Applications/Utilities/Install FreeBSD.app/Resources/LICENSE
-/Applications/Utilities/Install FreeBSD.app/Resources/check.png
-/Applications/Utilities/Install FreeBSD.app/Resources/Background.png
-/Applications/Utilities/Install FreeBSD.app/Resources/README.md
-/Applications/Utilities/Install FreeBSD.app/Resources/freebsd-install.py
-/Applications/Utilities/Install FreeBSD.app/Resources/FREEBSD_Logo_Vert_Pos_RGB.png
-/Applications/Utilities/Install FreeBSD.app/Resources/Install FreeBSD.png
-/Applications/Utilities/Install FreeBSD.app/Resources/cross.png
-/Applications/Utilities/Install FreeBSD.app/Resources/askpass.py
-/Applications/Utilities/Install FreeBSD.app/Resources/i18n/sv.ts
-/Applications/Utilities/Install FreeBSD.app/Resources/i18n/hu.ts
-/Applications/Utilities/Install FreeBSD.app/Resources/i18n/ko.ts
-/Applications/Utilities/Install FreeBSD.app/Resources/i18n/eo.ts
-/Applications/Utilities/Install FreeBSD.app/Resources/i18n/en.ts
-/Applications/Utilities/Install FreeBSD.app/Resources/i18n/fr.ts
-/Applications/Utilities/Install FreeBSD.app/Resources/i18n/el.ts
-/Applications/Utilities/Install FreeBSD.app/Resources/i18n/he.ts
-/Applications/Utilities/Install FreeBSD.app/Resources/i18n/tr.ts
-/Applications/Utilities/Install FreeBSD.app/Resources/i18n/pl.ts
-/Applications/Utilities/Install FreeBSD.app/Resources/i18n/ru.ts
-/Applications/Utilities/Install FreeBSD.app/Resources/i18n/it.ts
-/Applications/Utilities/Install FreeBSD.app/Resources/i18n/zh_Hant.ts
-/Applications/Utilities/Install FreeBSD.app/Resources/i18n/uk.ts
-/Applications/Utilities/Install FreeBSD.app/Resources/i18n/nb_NO.ts
-/Applications/Utilities/Install FreeBSD.app/Resources/i18n/es.ts
-/Applications/Utilities/Install FreeBSD.app/Resources/i18n/sl.ts
-/Applications/Utilities/Install FreeBSD.app/Resources/i18n/da.ts
-/Applications/Utilities/Install FreeBSD.app/Resources/i18n/ja.ts
-/Applications/Utilities/Install FreeBSD.app/Resources/i18n/lt.ts
-/Applications/Utilities/Install FreeBSD.app/Resources/i18n/cs.ts
-/Applications/Utilities/Install FreeBSD.app/Resources/i18n/de.ts
-/Applications/Utilities/Install FreeBSD.app/Resources/i18n/pt.ts
-/Applications/Utilities/Install FreeBSD.app/Resources/i18n/zh_Hans.ts
-/Applications/Utilities/Install FreeBSD.app/Resources/i18n/nl.ts
-/Applications/Utilities/Install FreeBSD.app/Resources/i18n/ka.ts
-/Applications/Utilities/Install FreeBSD.app/Resources/i18n/pt_BR.ts
-/Applications/Utilities/Install FreeBSD.app/Resources/disks.py
-/Applications/Utilities/Install FreeBSD.app/Resources/countries.json
-/Applications/Utilities/Install FreeBSD.app/Resources/languages.json
-/Applications/Utilities/Install FreeBSD.app/Resources/tstranslator.py
-/Applications/Utilities/Install FreeBSD.app/Install FreeBSD
+/Applications/Utilities/Install helloSystem.app/Resources/LICENSE
+/Applications/Utilities/Install helloSystem.app/Resources/check.png
+/Applications/Utilities/Install helloSystem.app/Resources/Background.png
+/Applications/Utilities/Install helloSystem.app/Resources/README.md
+/Applications/Utilities/Install helloSystem.app/Resources/install.py
+/Applications/Utilities/Install helloSystem.app/Resources/FREEBSD_Logo_Vert_Pos_RGB.png
+/Applications/Utilities/Install helloSystem.app/Resources/Install helloSystem.png
+/Applications/Utilities/Install helloSystem.app/Resources/Install FreeBSD.png
+/Applications/Utilities/Install helloSystem.app/Resources/cross.png
+/Applications/Utilities/Install helloSystem.app/Resources/askpass.py
+/Applications/Utilities/Install helloSystem.app/Resources/i18n/sv.ts
+/Applications/Utilities/Install helloSystem.app/Resources/i18n/hu.ts
+/Applications/Utilities/Install helloSystem.app/Resources/i18n/ko.ts
+/Applications/Utilities/Install helloSystem.app/Resources/i18n/eo.ts
+/Applications/Utilities/Install helloSystem.app/Resources/i18n/en.ts
+/Applications/Utilities/Install helloSystem.app/Resources/i18n/fr.ts
+/Applications/Utilities/Install helloSystem.app/Resources/i18n/el.ts
+/Applications/Utilities/Install helloSystem.app/Resources/i18n/he.ts
+/Applications/Utilities/Install helloSystem.app/Resources/i18n/tr.ts
+/Applications/Utilities/Install helloSystem.app/Resources/i18n/pl.ts
+/Applications/Utilities/Install helloSystem.app/Resources/i18n/ru.ts
+/Applications/Utilities/Install helloSystem.app/Resources/i18n/it.ts
+/Applications/Utilities/Install helloSystem.app/Resources/i18n/zh_Hant.ts
+/Applications/Utilities/Install helloSystem.app/Resources/i18n/uk.ts
+/Applications/Utilities/Install helloSystem.app/Resources/i18n/nb_NO.ts
+/Applications/Utilities/Install helloSystem.app/Resources/i18n/es.ts
+/Applications/Utilities/Install helloSystem.app/Resources/i18n/sl.ts
+/Applications/Utilities/Install helloSystem.app/Resources/i18n/da.ts
+/Applications/Utilities/Install helloSystem.app/Resources/i18n/ja.ts
+/Applications/Utilities/Install helloSystem.app/Resources/i18n/lt.ts
+/Applications/Utilities/Install helloSystem.app/Resources/i18n/cs.ts
+/Applications/Utilities/Install helloSystem.app/Resources/i18n/de.ts
+/Applications/Utilities/Install helloSystem.app/Resources/i18n/pt.ts
+/Applications/Utilities/Install helloSystem.app/Resources/i18n/zh_Hans.ts
+/Applications/Utilities/Install helloSystem.app/Resources/i18n/nl.ts
+/Applications/Utilities/Install helloSystem.app/Resources/i18n/ka.ts
+/Applications/Utilities/Install helloSystem.app/Resources/i18n/pt_BR.ts
+/Applications/Utilities/Install helloSystem.app/Resources/disks.py
+/Applications/Utilities/Install helloSystem.app/Resources/countries.json
+/Applications/Utilities/Install helloSystem.app/Resources/languages.json
+/Applications/Utilities/Install helloSystem.app/Resources/tstranslator.py
+/Applications/Utilities/Install helloSystem.app/Install helloSystem
 /Applications/Utilities/Zeroconf.app/Resources/Info-gnustep.plist
 /Applications/Utilities/Zeroconf.app/Resources/Zeroconf.png
 /Applications/Utilities/Zeroconf.app/Zeroconf
@@ -542,9 +543,9 @@
 @dir /Applications/Utilities/Hardware Probe.app/Resources/i18n
 @dir /Applications/Utilities/Remote Assistance.app
 @dir /Applications/Utilities/Remote Assistance.app/Resources
-@dir /Applications/Utilities/Install FreeBSD.app
-@dir /Applications/Utilities/Install FreeBSD.app/Resources
-@dir /Applications/Utilities/Install FreeBSD.app/Resources/i18n
+@dir /Applications/Utilities/Install helloSystem.app
+@dir /Applications/Utilities/Install helloSystem.app/Resources
+@dir /Applications/Utilities/Install helloSystem.app/Resources/i18n
 @dir /Applications/Utilities/Zeroconf.app
 @dir /Applications/Utilities/Zeroconf.app/Resources
 @dir /Applications/Utilities/Calendar.app
