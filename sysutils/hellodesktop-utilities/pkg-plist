@@ -391,8 +391,8 @@
 /Applications/Under Construction/Install Debian Runtime.app/Resources/cross.png
 /Applications/Under Construction/Install Debian Runtime.app/Resources/tstranslator.py
 /Applications/Under Construction/Install Debian Runtime.app/Install Debian Runtime
-/Applications/Under Construction/Battery.app/Battery
-/Applications/Under Construction/Battery.app/Resources/Battery.png
+/System/Battery.app/Battery
+/System/Battery.app/Resources/Battery.png
 /Applications/Under Construction/Simple Browser.app/GetCookies.py
 /Applications/Under Construction/Simple Browser.app/Resources/Simple Browser.png
 /Applications/Under Construction/Simple Browser.app/Resources/images/ma-icon-256.png
@@ -619,8 +619,8 @@
 @dir /Applications/Under Construction/Energy Saving.app/Resources
 @dir /Applications/Under Construction/Install Debian Runtime.app
 @dir /Applications/Under Construction/Install Debian Runtime.app/Resources
-@dir /Applications/Under Construction/Battery.app
-@dir /Applications/Under Construction/Battery.app/Resources
+@dir /System/Battery.app
+@dir /System/Battery.app/Resources
 @dir /Applications/Under Construction/Simple Browser.app
 @dir /Applications/Under Construction/Simple Browser.app/Resources
 @dir /Applications/Under Construction/Simple Browser.app/Resources/images
