@@ -345,6 +345,9 @@
 /Applications/Internet/Chromium.app/Resources/executable
 /Applications/Internet/Chromium.app/Resources/Chromium.png
 /Applications/Internet/Chromium.app/Resources/packages
+/Applications/Under Construction/Backup.app/Resources/Backup.png
+/Applications/Under Construction/Backup.app/Resources/background.png
+/Applications/Under Construction/Backup.app/Backup
 /Applications/Under Construction/Download Applications.app/Resources/check.png
 /Applications/Under Construction/Download Applications.app/Resources/tstranslator.py
 /Applications/Under Construction/Download Applications.app/Resources/COPYRIGHT
@@ -603,6 +606,8 @@
 @dir /Applications/Internet/Chromium.app
 @dir /Applications/Internet/Chromium.app/Resources
 @dir /Applications/Under Construction
+@dir /Applications/Under Construction/Backup.app
+@dir /Applications/Under Construction/Backup.app/Resources
 @dir /Applications/Under Construction/Download Applications.app
 @dir /Applications/Under Construction/Download Applications.app/Resources
 @dir /Applications/Under Construction/Disk Utility.app
