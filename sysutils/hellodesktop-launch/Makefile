@@ -20,7 +20,7 @@ GH_TAGNAME=	54d1046
 
 USE_KDE=	windowsystem
 USE_QT=		buildtools core dbus gui linguisttools \
-		sql widgets x11extras
+		widgets x11extras
 USE_XORG=	x11 xcb
 
 .include <bsd.port.mk>

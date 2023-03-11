@@ -19,7 +19,7 @@ USES=		cmake compiler:c++14-lang desktop-file-utils \
 USE_GITHUB=     yes
 GH_ACCOUNT=     helloSystem
 GH_PROJECT=     Filer
-GH_TAGNAME=	d770f46
+GH_TAGNAME=	3ac96d6
 
 USE_QT=		core dbus gui linguisttools multimedia network\
 		widgets x11extras
