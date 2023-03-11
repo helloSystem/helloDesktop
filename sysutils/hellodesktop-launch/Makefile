@@ -16,7 +16,7 @@ USES=		cmake compiler:c++14-lang gettext-runtime localbase:ldflags pkgconfig qt:
 USE_GITHUB=     yes
 GH_ACCOUNT=     helloSystem
 GH_PROJECT=     launch
-GH_TAGNAME=	0a19bc4
+GH_TAGNAME=	c528ad6
 
 USE_KDE=	windowsystem
 USE_QT=		buildtools core dbus gui linguisttools \
