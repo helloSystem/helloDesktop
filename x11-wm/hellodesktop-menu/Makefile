@@ -13,7 +13,7 @@ RUN_DEPENDS=    gmenudbusmenuproxy-standalone:x11/gmenudbusmenuproxy-standalone
 LIB_DEPENDS=	libdbusmenu-qt5.so:devel/libdbusmenu-qt \
 		libxcb-util.so:x11/xcb-util \
 		libxcb-ewmh.so:x11/xcb-util-wm\
-		math/libqalculate
+		libqalculate.so:math/libqalculate
 
 USES=	cmake compiler:c++14-lang gettext-runtime kde:5 pkgconfig qt:5 xorg
 
