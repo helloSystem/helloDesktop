@@ -333,6 +333,9 @@
 /Applications/Internet/Falkon.app/Resources/executable
 /Applications/Internet/Falkon.app/Resources/Falkon.png
 /Applications/Internet/Falkon.app/Resources/askpass.py
+/Applications/Internet/Transmission.app/Resources/Transmission.png
+/Applications/Internet/Transmission.app/Resources/packages
+/Applications/Internet/Transmission.app/Resources/executable
 /Applications/Internet/Trojitá.app/Resources/Trojitá.png
 /Applications/Internet/Trojitá.app/Resources/packages
 /Applications/Internet/Trojitá.app/Resources/executable
@@ -495,6 +498,7 @@
 /Applications/Graphics/Skanlite.app/Skanlite
 /Applications/Office/LibreOffice.app/LibreOffice
 /Applications/Internet/Falkon.app/Falkon
+/Applications/Internet/Transmission.app/Transmission
 /Applications/Internet/Trojitá.app/Trojitá
 /Applications/Internet/Thunderbird.app/Thunderbird
 /Applications/Internet/Firefox.app/Firefox
@@ -597,6 +601,8 @@
 @dir /Applications/Internet
 @dir /Applications/Internet/Falkon.app
 @dir /Applications/Internet/Falkon.app/Resources
+@dir /Applications/Internet/Transmission.app
+@dir /Applications/Internet/Transmission.app/Resources
 @dir /Applications/Internet/Trojitá.app
 @dir /Applications/Internet/Trojitá.app/Resources
 @dir /Applications/Internet/Thunderbird.app
