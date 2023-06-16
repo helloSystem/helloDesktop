@@ -1,5 +1,5 @@
 PORTNAME=	hellodesktop-menu
-DISTVERSION=	g20230424
+DISTVERSION=	g20230616
 CATEGORIES=	x11-wm
 
 MAINTAINER=     jsm@FreeBSD.org
@@ -20,7 +20,7 @@ USES=	cmake compiler:c++14-lang gettext-runtime kde:5 pkgconfig qt:5 xorg
 USE_GITHUB=     yes
 GH_ACCOUNT=     helloSystem
 GH_PROJECT=     Menu
-GH_TAGNAME=	0ca886b
+GH_TAGNAME=	a5ad6dc
 
 USE_KDE= 	dbusaddons windowsystem baloo globalaccel
 USE_QT=		buildtools core concurrent dbus declarative gui network qmake widgets x11extras
