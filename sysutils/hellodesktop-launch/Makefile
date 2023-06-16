@@ -1,5 +1,5 @@
 PORTNAME=	hellodesktop-launch
-DISTVERSION=	g20230311
+DISTVERSION=	g20230313
 CATEGORIES=	sysutils
 
 MAINTAINER=     jsm@FreeBSD.org
@@ -16,7 +16,7 @@ USES=		cmake compiler:c++14-lang gettext-runtime localbase:ldflags pkgconfig qt:
 USE_GITHUB=     yes
 GH_ACCOUNT=     helloSystem
 GH_PROJECT=     launch
-GH_TAGNAME=	c528ad6
+GH_TAGNAME=	5ae5c1d
 
 USE_KDE=	windowsystem
 USE_QT=		buildtools core dbus gui linguisttools \
